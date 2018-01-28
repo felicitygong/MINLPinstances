@@ -1,0 +1,17 @@
+flay02h.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 37.9473318763  LB: -inf  UB: 37.9473318763
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 21.9736659632  LB: 21.9736659632  UB: 37.9473318763
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 37.947331855  LB: 21.9736659632  UB: 37.947331855
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: 37.947331916  LB: 37.947331916  UB: 37.947331855
+MindtPy exiting on bound convergence. LB: 37.947331916 + (tol 1e-06) >= UB: 37.947331855
+
+Time elapsed: 0.552635908127

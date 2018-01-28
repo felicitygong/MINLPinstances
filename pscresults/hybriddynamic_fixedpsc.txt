@@ -1,0 +1,11 @@
+hybriddynamic_fixed.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 1.47377777028  LB: -inf  UB: 1.47377777028
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 1.47377777778  LB: 1.47377777778  UB: 1.47377777028
+MindtPy exiting on bound convergence. LB: 1.47377777778 + (tol 1e-06) >= UB: 1.47377777028
+
+Time elapsed: 0.238955020905

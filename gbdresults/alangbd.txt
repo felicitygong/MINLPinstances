@@ -1,0 +1,44 @@
+alan.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 2.98214283554  LB: -inf  UB: 2.98214283554
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 1.25127866997  LB: 1.25127866997  UB: 2.98214283554
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 2.89903845386  LB: 1.25127866997  UB: 2.89903845386
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 1.25127866997  LB: 1.25127866997  UB: 2.89903845386
+NLP 3: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 1.89903846154  LB: 1.89903846154  UB: 2.89903845386
+NLP 4: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 1.89903846154  LB: 1.89903846154  UB: 2.89903845386
+NLP 5: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: 1.89903846154  LB: 1.89903846154  UB: 2.89903845386
+NLP 6: Solve subproblem for fixed binaries.
+NLP 6: OBJ: 3.59999992513  LB: 1.89903846154  UB: 2.89903845386
+
+
+MILP 6: Solve master problem.
+MILP 6: OBJ: 2.89903846115  LB: 2.89903846115  UB: 2.89903845386
+MindtPy exiting on bound convergence. LB: 2.89903846115 + (tol 1e-05) >= UB: 2.89903845386
+
+Time elapsed: 1.01616001129

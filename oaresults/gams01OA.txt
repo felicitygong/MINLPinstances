@@ -1,0 +1,11 @@
+gams01.py
+NLP 1: Solve relaxed integrality.
+Objective 547.257634643
+
+
+MILP 1: Solve master problem.
+MILP master problem is infeasible. Problem may have no more feasible binary configurations.
+MindtPy initialization may have generated poor quality cuts.
+MindtPy exiting on bound convergence. LB: inf + (tol 1e-06) >= UB: inf
+
+Time elapsed: 265.7531178

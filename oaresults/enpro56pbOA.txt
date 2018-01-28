@@ -1,0 +1,16 @@
+enpro56pb.py
+NLP 1: Solve relaxed integrality.
+Objective 224062.140725
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 251049.930577  LB: 251049.930577  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 263428.29142  LB: 251049.930577  UB: 263428.29142
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: 263428.296165  LB: 263428.296165  UB: 263428.29142
+MindtPy exiting on bound convergence. LB: 263428.296165 + (tol 1e-06) >= UB: 263428.29142
+
+Time elapsed: 1.03276014328

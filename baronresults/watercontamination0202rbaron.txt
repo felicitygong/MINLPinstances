@@ -1,0 +1,51 @@
+watercontamination0202r.py
+===========================================================================
+ BARON version 17.8.9. Built: LNX-64 Wed Aug 9 15:54:55 EDT 2017 
+
+ If you use this software, please cite:
+ Tawarmalani, M. and N. V. Sahinidis, A polyhedral
+ branch-and-cut approach to global optimization,
+ Mathematical Programming, 103(2), 225-249, 2005.
+
+ BARON is a product of The Optimization Firm, LLC. http://www.minlp.com/
+ Parts of the BARON software were created at the
+ University of Illinois at Urbana-Champaign.
+===========================================================================
+ Licensee: Qi Chen at Carnegie Mellon University, qichen@andrew.cmu.edu.
+ Changing option LPSol to 8 (CLP) and continuing.
+ This BARON run may utilize the following subsolver(s)
+ For LP/MIP: CLP/CBC                                         
+ For NLP: IPOPT, FILTERSD, FILTERSQP
+===========================================================================
+ Doing local search
+ Preprocessing found feasible solution with value  2388.77481291     
+ Solving bounding LP
+ Starting multi-start local search
+ Done with local search
+===========================================================================
+  Iteration    Open nodes         Time (s)    Lower bound      Upper bound
+          1             1             6.00     0.946088E-11     2388.77    
+          6+            4            36.89     0.946088E-11     2388.77    
+*         6             4            50.08      0.00000         361.238    
+         10             3            96.91     0.712483E-09     361.238    
+*        13             3           116.95     0.712483E-09     105.502    
+*        15             1           118.54     0.712483E-09     97.9044    
+         15             0           118.54     97.8946          97.9044    
+
+ Cleaning up
+
+                         *** Normal completion ***            
+
+ Wall clock time:                   118.59
+ Total CPU time used:               118.54
+
+ Total no. of BaR iterations:      15
+ Best solution found at node:      15
+ Max. no. of nodes in memory:       4
+ 
+ All done
+===========================================================================
+ Unable to find/load CPLEX library libcplex.so: cannot open shared object file: No such file or directory
+ Unable to find/load CPLEX library libcplex1270.so: cannot open shared object file: No such file or directory
+
+Time elapsed: 118.867151022

@@ -1,0 +1,15 @@
+rsyn0830h.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 83.9014626807  LB: 83.9014626807  UB: inf
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 463.095758622  LB: 83.9014626807  UB: 463.095758622
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 476.318782756  LB: 476.318782756  UB: 463.095758622
+
+
+MindtPy exiting on bound convergence. LB: 476.318782756 + (tol 1e-06) >= UB: 463.095758622
+
+Time elapsed: 1.7430100441

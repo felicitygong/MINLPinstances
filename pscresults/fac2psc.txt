@@ -1,0 +1,75 @@
+fac2.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 331846507.227  LB: -inf  UB: 331846507.227
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: -158269628.481  LB: -158269628.481  UB: 331846507.227
+NLP 2: Solve subproblem for fixed binaries.
+NLP subproblem failed to converge within iteration limit.
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: 47615961.156  LB: 47615961.156  UB: 331846507.227
+NLP 3: Solve subproblem for fixed binaries.
+NLP subproblem failed to converge within iteration limit.
+
+
+MILP 3: Solve master problem.
+MIP 3: OBJ: 47626782.216  LB: 47626782.216  UB: 331846507.227
+NLP 4: Solve subproblem for fixed binaries.
+NLP subproblem failed to converge within iteration limit.
+
+
+MILP 4: Solve master problem.
+MIP 4: OBJ: 47628794.832  LB: 47628794.832  UB: 331846507.227
+NLP 5: Solve subproblem for fixed binaries.
+NLP subproblem failed to converge within iteration limit.
+
+
+MILP 5: Solve master problem.
+MIP 5: OBJ: 125946738.111  LB: 125946738.111  UB: 331846507.227
+NLP 6: Solve subproblem for fixed binaries.
+NLP subproblem failed to converge within iteration limit.
+
+
+MILP 6: Solve master problem.
+MIP 6: OBJ: 125951180.409  LB: 125951180.409  UB: 331846507.227
+NLP 7: Solve subproblem for fixed binaries.
+NLP subproblem failed to converge within iteration limit.
+
+
+MILP 7: Solve master problem.
+MIP 7: OBJ: 125970081.129  LB: 125970081.129  UB: 331846507.227
+NLP 8: Solve subproblem for fixed binaries.
+NLP subproblem failed to converge within iteration limit.
+
+
+MILP 8: Solve master problem.
+MIP 8: OBJ: 251357244.987  LB: 251357244.987  UB: 331846507.227
+NLP 9: Solve subproblem for fixed binaries.
+NLP subproblem failed to converge within iteration limit.
+
+
+MILP 9: Solve master problem.
+MIP 9: OBJ: 251374780.749  LB: 251374780.749  UB: 331846507.227
+NLP 10: Solve subproblem for fixed binaries.
+NLP subproblem failed to converge within iteration limit.
+
+
+MILP 10: Solve master problem.
+MIP 10: OBJ: 251374886.589  LB: 251374886.589  UB: 331846507.227
+NLP 11: Solve subproblem for fixed binaries.
+NLP subproblem failed to converge within iteration limit.
+
+
+MILP 11: Solve master problem.
+MIP 11: OBJ: 331837498.177  LB: 331837498.177  UB: 331846507.227
+NLP 12: Solve subproblem for fixed binaries.
+NLP 12: OBJ: 331837497.297  LB: 331837498.177  UB: 331837497.297
+
+
+MindtPy exiting on bound convergence. LB: 331837498.177 + (tol 1e-06) >= UB: 331837497.297
+
+Time elapsed: 38.309376955

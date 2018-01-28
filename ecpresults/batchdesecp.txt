@@ -1,0 +1,30 @@
+batchdes.py
+MILP 0.1: maximize value of binaries
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 80251.2639543  LB: 80251.2639543  UB: inf
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 130004.15641  LB: 130004.15641  UB: inf
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 152071.614152  LB: 152071.614152  UB: inf
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 166433.683276  LB: 166433.683276  UB: inf
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: 167422.251018  LB: 167422.251018  UB: inf
+
+
+MILP 6: Solve master problem.
+ECP has found a feasible solution within a 0.0001 tolerance
+MILP 6: OBJ: 167427.656997  LB: 167427.656997  UB: 167427.656997
+MindtPy exiting on bound convergence. LB: 167427.656997 + (tol 1e-05) >= UB: 167427.656997
+
+Time elapsed: 1.02608895302

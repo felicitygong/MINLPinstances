@@ -1,0 +1,58 @@
+flay03h.py
+NLP 1: Solve relaxed integrality.
+Objective 30.9838666846
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 34.9838667478  LB: 34.9838667478  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 48.9897948256  LB: 34.9838667478  UB: 48.9897948256
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: 34.9838667565  LB: 34.9838667565  UB: 48.9897948256
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 48.9897948657  LB: 34.9838667565  UB: 48.9897948256
+
+
+MILP 3: Solve master problem.
+MIP 3: OBJ: 48.1617790392  LB: 48.1617790392  UB: 48.9897948256
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 48.9897948329  LB: 48.1617790392  UB: 48.9897948256
+
+
+MILP 4: Solve master problem.
+MIP 4: OBJ: 48.1635093933  LB: 48.1635093933  UB: 48.9897948256
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 48.9897948328  LB: 48.1635093933  UB: 48.9897948256
+
+
+MILP 5: Solve master problem.
+MIP 5: OBJ: 48.3788386806  LB: 48.3788386806  UB: 48.9897948256
+NLP 6: Solve subproblem for fixed binaries.
+NLP 6: OBJ: 48.9897948299  LB: 48.3788386806  UB: 48.9897948256
+
+
+MILP 6: Solve master problem.
+MIP 6: OBJ: 48.4426072571  LB: 48.4426072571  UB: 48.9897948256
+NLP 7: Solve subproblem for fixed binaries.
+NLP 7: OBJ: 48.9897948326  LB: 48.4426072571  UB: 48.9897948256
+
+
+MILP 7: Solve master problem.
+MIP 7: OBJ: 48.9752851703  LB: 48.9752851703  UB: 48.9897948256
+NLP 8: Solve subproblem for fixed binaries.
+NLP 8: OBJ: 48.9897948276  LB: 48.9752851703  UB: 48.9897948256
+
+
+MILP 8: Solve master problem.
+MIP 8: OBJ: 48.9879545296  LB: 48.9879545296  UB: 48.9897948256
+NLP 9: Solve subproblem for fixed binaries.
+NLP 9: OBJ: 48.9897948328  LB: 48.9879545296  UB: 48.9897948256
+
+
+MILP 9: Solve master problem.
+MIP 9: OBJ: 48.9897948012  LB: 48.9897948012  UB: 48.9897948256
+MindtPy exiting on bound convergence. LB: 48.9897948012 + (tol 1e-06) >= UB: 48.9897948256
+
+Time elapsed: 1.88790893555

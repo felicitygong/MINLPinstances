@@ -1,0 +1,36 @@
+batch0812.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: -48192331.8704  LB: -48192331.8704  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 2822615.00668  LB: -48192331.8704  UB: 2822615.00668
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: 2630066.97202  LB: 2630066.97202  UB: 2822615.00668
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 2707562.00588  LB: 2630066.97202  UB: 2707562.00588
+
+
+MILP 3: Solve master problem.
+MIP 3: OBJ: 2643056.82492  LB: 2643056.82492  UB: 2707562.00588
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 2705839.7565  LB: 2643056.82492  UB: 2705839.7565
+
+
+MILP 4: Solve master problem.
+MIP 4: OBJ: 2650742.7038  LB: 2650742.7038  UB: 2705839.7565
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 2687026.63652  LB: 2650742.7038  UB: 2687026.63652
+
+
+MILP 5: Solve master problem.
+MIP 5: OBJ: 2687026.78425  LB: 2687026.78425  UB: 2687026.63652
+MindtPy exiting on bound convergence. LB: 2687026.78425 + (tol 1e-06) >= UB: 2687026.63652
+
+Time elapsed: 2.15617203712

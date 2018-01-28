@@ -1,0 +1,11 @@
+ex1223b.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 5.80685274262  LB: -inf  UB: 5.80685274262
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 5.80685281753  LB: 5.80685281753  UB: 5.80685274262
+MindtPy exiting on bound convergence. LB: 5.80685281753 + (tol 1e-06) >= UB: 5.80685274262
+
+Time elapsed: 0.237606048584

@@ -1,0 +1,59 @@
+rsyn0840m03h.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 1199.20825037  LB: 1199.20825037  UB: inf
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 2721.51821541  LB: 1199.20825037  UB: 2721.51821541
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 2590.82649087  LB: 2590.82649087  UB: 2721.51821541
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: 2712.57481281  LB: 2590.82649087  UB: 2712.57481281
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 2630.93721778  LB: 2630.93721778  UB: 2712.57481281
+
+
+MILP 3: Solve master problem.
+MIP 3: OBJ: 2710.58777383  LB: 2630.93721778  UB: 2710.58777383
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 2539.07526189  LB: 2630.93721778  UB: 2710.58777383
+
+
+MILP 4: Solve master problem.
+MIP 4: OBJ: 2700.82919681  LB: 2630.93721778  UB: 2700.82919681
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 2641.88674865  LB: 2641.88674865  UB: 2700.82919681
+
+
+MILP 5: Solve master problem.
+MIP 5: OBJ: 2694.10375416  LB: 2641.88674865  UB: 2694.10375416
+NLP 6: Solve subproblem for fixed binaries.
+NLP 6: OBJ: 2600.88356544  LB: 2641.88674865  UB: 2694.10375416
+
+
+MILP 6: Solve master problem.
+MIP 6: OBJ: 2669.62518526  LB: 2641.88674865  UB: 2669.62518526
+NLP 7: Solve subproblem for fixed binaries.
+NLP 7: OBJ: 2619.04469934  LB: 2641.88674865  UB: 2669.62518526
+
+
+MILP 7: Solve master problem.
+MIP 7: OBJ: 2646.80957267  LB: 2641.88674865  UB: 2646.80957267
+NLP 8: Solve subproblem for fixed binaries.
+NLP 8: OBJ: 2596.30628817  LB: 2641.88674865  UB: 2646.80957267
+
+
+MILP 8: Solve master problem.
+MIP 8: OBJ: 2644.80957314  LB: 2641.88674865  UB: 2644.80957314
+NLP 9: Solve subproblem for fixed binaries.
+NLP 9: OBJ: 2627.38253531  LB: 2641.88674865  UB: 2644.80957314
+
+
+MILP 9: Solve master problem.
+MIP 9: OBJ: 2639.40583153  LB: 2641.88674865  UB: 2639.40583153
+MindtPy exiting on bound convergence. LB: 2641.88674865 + (tol 1e-06) >= UB: 2639.40583153
+
+Time elapsed: 21.8460009098

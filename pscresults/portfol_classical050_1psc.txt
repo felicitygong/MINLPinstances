@@ -1,0 +1,209 @@
+portfol_classical050_1.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: -0.0614572361452  LB: -inf  UB: -0.0614572361452
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: -0.169485  LB: -0.169485  UB: -0.0614572361452
+NLP 2: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: -0.158797431045  LB: -0.158797431045  UB: -0.0614572361452
+NLP 3: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 3: Solve master problem.
+MIP 3: OBJ: -0.155894437369  LB: -0.155894437369  UB: -0.0614572361452
+NLP 4: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 4: Solve master problem.
+MIP 4: OBJ: -0.152874553748  LB: -0.152874553748  UB: -0.0614572361452
+NLP 5: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 5: Solve master problem.
+MIP 5: OBJ: -0.150439629812  LB: -0.150439629812  UB: -0.0614572361452
+NLP 6: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 6: Solve master problem.
+MIP 6: OBJ: -0.146729030926  LB: -0.146729030926  UB: -0.0614572361452
+NLP 7: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 7: Solve master problem.
+MIP 7: OBJ: -0.144866506431  LB: -0.144866506431  UB: -0.0614572361452
+NLP 8: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 8: Solve master problem.
+MIP 8: OBJ: -0.142877645647  LB: -0.142877645647  UB: -0.0614572361452
+NLP 9: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 9: Solve master problem.
+MIP 9: OBJ: -0.141912005631  LB: -0.141912005631  UB: -0.0614572361452
+NLP 10: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 10: Solve master problem.
+MIP 10: OBJ: -0.140176227186  LB: -0.140176227186  UB: -0.0614572361452
+NLP 11: Solve subproblem for fixed binaries.
+NLP 11: OBJ: -0.0789516380867  LB: -0.140176227186  UB: -0.0789516380867
+
+
+MILP 11: Solve master problem.
+MIP 11: OBJ: -0.138408917467  LB: -0.138408917467  UB: -0.0789516380867
+NLP 12: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 12: Solve master problem.
+MIP 12: OBJ: -0.138371449988  LB: -0.138371449988  UB: -0.0789516380867
+NLP 13: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 13: Solve master problem.
+MIP 13: OBJ: -0.138293323861  LB: -0.138293323861  UB: -0.0789516380867
+NLP 14: Solve subproblem for fixed binaries.
+NLP 14: OBJ: -0.0911337488137  LB: -0.138293323861  UB: -0.0911337488137
+
+
+MILP 14: Solve master problem.
+MIP 14: OBJ: -0.133426992161  LB: -0.133426992161  UB: -0.0911337488137
+NLP 15: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 15: Solve master problem.
+MIP 15: OBJ: -0.132085771798  LB: -0.132085771798  UB: -0.0911337488137
+NLP 16: Solve subproblem for fixed binaries.
+NLP 16: OBJ: -0.090455973341  LB: -0.132085771798  UB: -0.0911337488137
+
+
+MILP 16: Solve master problem.
+MIP 16: OBJ: -0.122825138314  LB: -0.122825138314  UB: -0.0911337488137
+NLP 17: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 17: Solve master problem.
+MIP 17: OBJ: -0.121991340831  LB: -0.121991340831  UB: -0.0911337488137
+NLP 18: Solve subproblem for fixed binaries.
+NLP 18: OBJ: -0.0857609973168  LB: -0.121991340831  UB: -0.0911337488137
+
+
+MILP 18: Solve master problem.
+MIP 18: OBJ: -0.116652117735  LB: -0.116652117735  UB: -0.0911337488137
+NLP 19: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 19: Solve master problem.
+MIP 19: OBJ: -0.116633429113  LB: -0.116633429113  UB: -0.0911337488137
+NLP 20: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 20: Solve master problem.
+MIP 20: OBJ: -0.11649208736  LB: -0.11649208736  UB: -0.0911337488137
+NLP 21: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 21: Solve master problem.
+MIP 21: OBJ: -0.116492039765  LB: -0.116492039765  UB: -0.0911337488137
+NLP 22: Solve subproblem for fixed binaries.
+NLP 22: OBJ: -0.0831842960323  LB: -0.116492039765  UB: -0.0911337488137
+
+
+MILP 22: Solve master problem.
+MIP 22: OBJ: -0.115550653626  LB: -0.115550653626  UB: -0.0911337488137
+NLP 23: Solve subproblem for fixed binaries.
+NLP 23: OBJ: -0.0791470030998  LB: -0.115550653626  UB: -0.0911337488137
+
+
+MILP 23: Solve master problem.
+MIP 23: OBJ: -0.113370452575  LB: -0.113370452575  UB: -0.0911337488137
+NLP 24: Solve subproblem for fixed binaries.
+NLP 24: OBJ: -0.0937888365333  LB: -0.113370452575  UB: -0.0937888365333
+
+
+MILP 24: Solve master problem.
+MIP 24: OBJ: -0.11084507597  LB: -0.11084507597  UB: -0.0937888365333
+NLP 25: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 25: Solve master problem.
+MIP 25: OBJ: -0.110812711738  LB: -0.110812711738  UB: -0.0937888365333
+NLP 26: Solve subproblem for fixed binaries.
+NLP 26: OBJ: -0.0833426258977  LB: -0.110812711738  UB: -0.0937888365333
+
+
+MILP 26: Solve master problem.
+MIP 26: OBJ: -0.110796599429  LB: -0.110796599429  UB: -0.0937888365333
+NLP 27: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 27: Solve master problem.
+MIP 27: OBJ: -0.110729872952  LB: -0.110729872952  UB: -0.0937888365333
+NLP 28: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 28: Solve master problem.
+MIP 28: OBJ: -0.110729786141  LB: -0.110729786141  UB: -0.0937888365333
+NLP 29: Solve subproblem for fixed binaries.
+NLP 29: OBJ: -0.080646479989  LB: -0.110729786141  UB: -0.0937888365333
+
+
+MILP 29: Solve master problem.
+MIP 29: OBJ: -0.110453131689  LB: -0.110453131689  UB: -0.0937888365333
+NLP 30: Solve subproblem for fixed binaries.
+NLP 30: OBJ: -0.0828105340784  LB: -0.110453131689  UB: -0.0937888365333
+
+
+MILP 30: Solve master problem.
+MIP 30: OBJ: -0.110361219306  LB: -0.110361219306  UB: -0.0937888365333
+NLP 31: Solve subproblem for fixed binaries.
+NLP 31: OBJ: -0.0868812961611  LB: -0.110361219306  UB: -0.0937888365333
+
+
+MindtPy unable to converge bounds after 30 master iterations.
+Final bound values: LB: -0.110361219306  UB: -0.0937888365333
+
+Time elapsed: 21.1554329395

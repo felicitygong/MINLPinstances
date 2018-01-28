@@ -1,0 +1,72 @@
+sssd15-08.py
+Ipopt 3.12.8: 
+==> Warning: Treating 144 binary and 0 integer variables as continous.
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.12.8, running with linear solver ma27.
+
+Number of nonzeros in equality constraint Jacobian...:      264
+Number of nonzeros in inequality constraint Jacobian.:      120
+Number of nonzeros in Lagrangian Hessian.............:        8
+
+Total number of variables............................:      176
+                     variables with only lower bounds:       32
+                variables with lower and upper bounds:      144
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:       23
+Total number of inequality constraints...............:       56
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:       56
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  7.8891939e+03 9.20e-01 2.86e+01  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  7.7471068e+03 8.89e-01 2.69e+01  -1.0 5.61e-01    -  5.50e-02 3.40e-02f  1
+   2  2.5156728e+04 7.95e-01 2.90e+01  -1.0 8.06e-01    -  5.30e-02 1.05e-01h  1
+   3  5.4414143e+04 6.37e-01 1.78e+01  -1.0 8.01e-01    -  5.01e-01 1.98e-01h  1
+   4  1.8506531e+05 3.13e-02 2.56e+01  -1.0 6.96e-01    -  3.46e-01 1.00e+00h  1
+   5  2.0934222e+05 1.57e-04 3.51e-01  -1.0 1.53e-01    -  1.00e+00 1.00e+00h  1
+   6  2.0810973e+05 3.33e-16 2.95e-01  -1.7 1.22e-01    -  8.05e-01 1.00e+00f  1
+   7  2.0770663e+05 4.44e-16 5.92e-04  -1.7 2.29e-01    -  1.00e+00 1.00e+00f  1
+   8  2.0651900e+05 2.39e-05 3.32e-01  -3.8 3.26e-01    -  4.89e-01 9.99e-01f  1
+   9  2.0620509e+05 5.40e-06 1.29e-01  -3.8 3.61e-01    -  5.84e-01 7.07e-01f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  2.0592907e+05 4.44e-16 5.33e-02  -3.8 3.60e-01    -  4.80e-01 9.04e-01f  1
+  11  2.0587662e+05 8.88e-16 9.63e-03  -3.8 2.38e-01    -  7.98e-01 8.96e-01f  1
+  12  2.0586445e+05 8.88e-16 1.67e-03  -3.8 2.71e-01    -  9.01e-01 1.00e+00f  1
+  13  2.0586352e+05 4.44e-16 1.03e-08  -3.8 8.03e-02    -  1.00e+00 1.00e+00f  1
+  14  2.0584559e+05 4.44e-16 2.43e-04  -5.7 1.14e-01    -  8.72e-01 8.33e-01f  1
+  15  2.0584218e+05 6.66e-16 1.62e-03  -5.7 2.87e-02    -  7.97e-01 9.39e-01f  1
+  16  2.0584195e+05 1.11e-15 2.22e-07  -5.7 1.60e-02    -  1.00e+00 1.00e+00f  1
+  17  2.0584171e+05 6.66e-16 2.41e-04  -8.6 2.23e-03    -  9.82e-01 8.99e-01f  1
+  18  2.0584168e+05 6.66e-16 2.80e-09  -8.6 2.54e-04    -  1.00e+00 1.00e+00f  1
+
+Number of Iterations....: 18
+
+                                   (scaled)                 (unscaled)
+Objective...............:   2.2085255592764216e+02    2.0584168375585476e+05
+Dual infeasibility......:   2.8001929738499594e-09    2.6098698933212001e-06
+Constraint violation....:   6.6613381477509392e-16    6.6613381477509392e-16
+Complementarity.........:   5.0502475093439150e-09    4.7069930721007870e-06
+Overall NLP error.......:   5.0502475093439150e-09    4.7069930721007870e-06
+
+
+Number of objective function evaluations             = 19
+Number of objective gradient evaluations             = 19
+Number of equality constraint evaluations            = 19
+Number of inequality constraint evaluations          = 19
+Number of equality constraint Jacobian evaluations   = 19
+Number of inequality constraint Jacobian evaluations = 19
+Number of Lagrangian Hessian evaluations             = 18
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.012
+Total CPU secs in NLP function evaluations           =      0.000
+
+EXIT: Optimal Solution Found.
+
+Time elapsed: 0.1491959095

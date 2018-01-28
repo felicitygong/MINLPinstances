@@ -1,0 +1,17 @@
+risk2bpb.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: -28.0729094058  LB: -inf  UB: -28.0729094058
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: -93.7983670495  LB: -93.7983670495  UB: -28.0729094058
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: -55.8761399951  LB: -93.7983670495  UB: -55.8761399951
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: -55.876139395  LB: -55.876139395  UB: -55.8761399951
+MindtPy exiting on bound convergence. LB: -55.876139395 + (tol 1e-06) >= UB: -55.8761399951
+
+Time elapsed: 2.16491699219

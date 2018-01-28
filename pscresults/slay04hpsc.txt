@@ -1,0 +1,59 @@
+slay04h.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 41921.9570069  LB: -inf  UB: 41921.9570069
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: -70259.4298891  LB: -70259.4298891  UB: 41921.9570069
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 11724.0978808  LB: -70259.4298891  UB: 11724.0978808
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: 2551.60891655  LB: 2551.60891655  UB: 11724.0978808
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 13997.1175277  LB: 2551.60891655  UB: 11724.0978808
+
+
+MILP 3: Solve master problem.
+MIP 3: OBJ: 5366.80486303  LB: 5366.80486303  UB: 11724.0978808
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 11302.2713311  LB: 5366.80486303  UB: 11302.2713311
+
+
+MILP 4: Solve master problem.
+MIP 4: OBJ: 7213.57014111  LB: 7213.57014111  UB: 11302.2713311
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 14740.1726947  LB: 7213.57014111  UB: 11302.2713311
+
+
+MILP 5: Solve master problem.
+MIP 5: OBJ: 7460.63924676  LB: 7460.63924676  UB: 11302.2713311
+NLP 6: Solve subproblem for fixed binaries.
+NLP 6: OBJ: 10650.4335225  LB: 7460.63924676  UB: 10650.4335225
+
+
+MILP 6: Solve master problem.
+MIP 6: OBJ: 7726.84841365  LB: 7726.84841365  UB: 10650.4335225
+NLP 7: Solve subproblem for fixed binaries.
+NLP 7: OBJ: 13501.5592311  LB: 7726.84841365  UB: 10650.4335225
+
+
+MILP 7: Solve master problem.
+MIP 7: OBJ: 8934.60088259  LB: 8934.60088259  UB: 10650.4335225
+NLP 8: Solve subproblem for fixed binaries.
+NLP 8: OBJ: 9859.6596409  LB: 8934.60088259  UB: 9859.6596409
+
+
+MILP 8: Solve master problem.
+MIP 8: OBJ: 9231.9309439  LB: 9231.9309439  UB: 9859.6596409
+NLP 9: Solve subproblem for fixed binaries.
+NLP 9: OBJ: 9975.66191244  LB: 9231.9309439  UB: 9859.6596409
+
+
+MILP 9: Solve master problem.
+MIP 9: OBJ: 9859.65970793  LB: 9859.65970793  UB: 9859.6596409
+MindtPy exiting on bound convergence. LB: 9859.65970793 + (tol 1e-06) >= UB: 9859.6596409
+
+Time elapsed: 3.12381005287

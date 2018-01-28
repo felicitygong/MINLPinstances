@@ -1,0 +1,118 @@
+flay04m.py
+NLP 1: Solve relaxed integrality.
+Objective 30.9838666746
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 48.9838667477  LB: 48.9838667477  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 54.9897946266  LB: 48.9838667477  UB: 54.9897946266
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: 48.9838667566  LB: 48.9838667566  UB: 54.9897946266
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 54.9897946663  LB: 48.9838667566  UB: 54.9897946266
+
+
+MILP 3: Solve master problem.
+MIP 3: OBJ: 53.3731712192  LB: 53.3731712192  UB: 54.9897946266
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 54.4058819086  LB: 53.3731712192  UB: 54.4058819086
+
+
+MILP 4: Solve master problem.
+MIP 4: OBJ: 53.4139150034  LB: 53.4139150034  UB: 54.4058819086
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 54.4058818877  LB: 53.4139150034  UB: 54.4058818877
+
+
+MILP 5: Solve master problem.
+MIP 5: OBJ: 53.8393203426  LB: 53.8393203426  UB: 54.4058818877
+NLP 6: Solve subproblem for fixed binaries.
+NLP 6: OBJ: 54.4058818916  LB: 53.8393203426  UB: 54.4058818877
+
+
+MILP 6: Solve master problem.
+MIP 6: OBJ: 53.8393203469  LB: 53.8393203469  UB: 54.4058818877
+NLP 7: Solve subproblem for fixed binaries.
+NLP 7: OBJ: 54.4058819008  LB: 53.8393203469  UB: 54.4058818877
+
+
+MILP 7: Solve master problem.
+MIP 7: OBJ: 54.1520633292  LB: 54.1520633292  UB: 54.4058818877
+NLP 8: Solve subproblem for fixed binaries.
+NLP 8: OBJ: 54.4166665159  LB: 54.1520633292  UB: 54.4058818877
+
+
+MILP 8: Solve master problem.
+MIP 8: OBJ: 54.152063339  LB: 54.152063339  UB: 54.4058818877
+NLP 9: Solve subproblem for fixed binaries.
+NLP 9: OBJ: 54.4166664979  LB: 54.152063339  UB: 54.4058818877
+
+
+MILP 9: Solve master problem.
+MIP 9: OBJ: 54.240713421  LB: 54.240713421  UB: 54.4058818877
+NLP 10: Solve subproblem for fixed binaries.
+NLP 10: OBJ: 54.405881911  LB: 54.240713421  UB: 54.4058818877
+
+
+MILP 10: Solve master problem.
+MIP 10: OBJ: 54.309591454  LB: 54.309591454  UB: 54.4058818877
+NLP 11: Solve subproblem for fixed binaries.
+NLP 11: OBJ: 54.405881903  LB: 54.309591454  UB: 54.4058818877
+
+
+MILP 11: Solve master problem.
+MIP 11: OBJ: 54.3153122827  LB: 54.3153122827  UB: 54.4058818877
+NLP 12: Solve subproblem for fixed binaries.
+NLP 12: OBJ: 54.4166665108  LB: 54.3153122827  UB: 54.4058818877
+
+
+MILP 12: Solve master problem.
+MIP 12: OBJ: 54.3153122995  LB: 54.3153122995  UB: 54.4058818877
+NLP 13: Solve subproblem for fixed binaries.
+NLP 13: OBJ: 54.4166665249  LB: 54.3153122995  UB: 54.4058818877
+
+
+MILP 13: Solve master problem.
+MIP 13: OBJ: 54.3610941082  LB: 54.3610941082  UB: 54.4058818877
+NLP 14: Solve subproblem for fixed binaries.
+NLP 14: OBJ: 54.4058819094  LB: 54.3610941082  UB: 54.4058818877
+
+
+MILP 14: Solve master problem.
+MIP 14: OBJ: 54.3804942521  LB: 54.3804942521  UB: 54.4058818877
+NLP 15: Solve subproblem for fixed binaries.
+NLP 15: OBJ: 54.4058818873  LB: 54.3804942521  UB: 54.4058818873
+
+
+MILP 15: Solve master problem.
+MIP 15: OBJ: 54.3810347164  LB: 54.3810347164  UB: 54.4058818873
+NLP 16: Solve subproblem for fixed binaries.
+NLP 16: OBJ: 54.4058819068  LB: 54.3810347164  UB: 54.4058818873
+
+
+MILP 16: Solve master problem.
+MIP 16: OBJ: 54.3941498274  LB: 54.3941498274  UB: 54.4058818873
+NLP 17: Solve subproblem for fixed binaries.
+NLP 17: OBJ: 54.4058818858  LB: 54.3941498274  UB: 54.4058818858
+
+
+MILP 17: Solve master problem.
+MIP 17: OBJ: 54.3941498468  LB: 54.3941498468  UB: 54.4058818858
+NLP 18: Solve subproblem for fixed binaries.
+NLP 18: OBJ: 54.405881906  LB: 54.3941498468  UB: 54.4058818858
+
+
+MILP 18: Solve master problem.
+MIP 18: OBJ: 54.4031502793  LB: 54.4031502793  UB: 54.4058818858
+NLP 19: Solve subproblem for fixed binaries.
+NLP 19: OBJ: 54.4058818893  LB: 54.4031502793  UB: 54.4058818858
+
+
+MILP 19: Solve master problem.
+MIP 19: OBJ: 54.4058819906  LB: 54.4058819906  UB: 54.4058818858
+MindtPy exiting on bound convergence. LB: 54.4058819906 + (tol 1e-06) >= UB: 54.4058818858
+
+Time elapsed: 4.69857907295

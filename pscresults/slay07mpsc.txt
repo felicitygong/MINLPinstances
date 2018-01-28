@@ -1,0 +1,119 @@
+slay07m.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 170304.296594  LB: -inf  UB: 170304.296594
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: -200058.761704  LB: -200058.761704  UB: 170304.296594
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 118875.320248  LB: -200058.761704  UB: 118875.320248
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: -54128.0598179  LB: -54128.0598179  UB: 118875.320248
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 71838.8176328  LB: -54128.0598179  UB: 71838.8176328
+
+
+MILP 3: Solve master problem.
+MIP 3: OBJ: 38704.5594239  LB: 38704.5594239  UB: 71838.8176328
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 69860.8720195  LB: 38704.5594239  UB: 69860.8720195
+
+
+MILP 4: Solve master problem.
+MIP 4: OBJ: 56327.873857  LB: 56327.873857  UB: 69860.8720195
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 66714.5682068  LB: 56327.873857  UB: 66714.5682068
+
+
+MILP 5: Solve master problem.
+MIP 5: OBJ: 57537.6928669  LB: 57537.6928669  UB: 66714.5682068
+NLP 6: Solve subproblem for fixed binaries.
+NLP 6: OBJ: 67258.2173849  LB: 57537.6928669  UB: 66714.5682068
+
+
+MILP 6: Solve master problem.
+MIP 6: OBJ: 59163.2566106  LB: 59163.2566106  UB: 66714.5682068
+NLP 7: Solve subproblem for fixed binaries.
+NLP 7: OBJ: 72407.8862007  LB: 59163.2566106  UB: 66714.5682068
+
+
+MILP 7: Solve master problem.
+MIP 7: OBJ: 59806.2321139  LB: 59806.2321139  UB: 66714.5682068
+NLP 8: Solve subproblem for fixed binaries.
+NLP 8: OBJ: 66740.1425971  LB: 59806.2321139  UB: 66714.5682068
+
+
+MILP 8: Solve master problem.
+MIP 8: OBJ: 61015.2434748  LB: 61015.2434748  UB: 66714.5682068
+NLP 9: Solve subproblem for fixed binaries.
+NLP 9: OBJ: 66805.3358084  LB: 61015.2434748  UB: 66714.5682068
+
+
+MILP 9: Solve master problem.
+MIP 9: OBJ: 62016.6863078  LB: 62016.6863078  UB: 66714.5682068
+NLP 10: Solve subproblem for fixed binaries.
+NLP 10: OBJ: 64906.7427954  LB: 62016.6863078  UB: 64906.7427954
+
+
+MILP 10: Solve master problem.
+MIP 10: OBJ: 62723.8552018  LB: 62723.8552018  UB: 64906.7427954
+NLP 11: Solve subproblem for fixed binaries.
+NLP 11: OBJ: 73783.3546024  LB: 62723.8552018  UB: 64906.7427954
+
+
+MILP 11: Solve master problem.
+MIP 11: OBJ: 62955.4363983  LB: 62955.4363983  UB: 64906.7427954
+NLP 12: Solve subproblem for fixed binaries.
+NLP 12: OBJ: 65253.8980453  LB: 62955.4363983  UB: 64906.7427954
+
+
+MILP 12: Solve master problem.
+MIP 12: OBJ: 63567.4331549  LB: 63567.4331549  UB: 64906.7427954
+NLP 13: Solve subproblem for fixed binaries.
+NLP 13: OBJ: 70338.161154  LB: 63567.4331549  UB: 64906.7427954
+
+
+MILP 13: Solve master problem.
+MIP 13: OBJ: 63992.6761834  LB: 63992.6761834  UB: 64906.7427954
+NLP 14: Solve subproblem for fixed binaries.
+NLP 14: OBJ: 72004.2170737  LB: 63992.6761834  UB: 64906.7427954
+
+
+MILP 14: Solve master problem.
+MIP 14: OBJ: 64336.0611399  LB: 64336.0611399  UB: 64906.7427954
+NLP 15: Solve subproblem for fixed binaries.
+NLP 15: OBJ: 67867.0132688  LB: 64336.0611399  UB: 64906.7427954
+
+
+MILP 15: Solve master problem.
+MIP 15: OBJ: 64336.0611398  LB: 64336.0611399  UB: 64906.7427954
+NLP 16: Solve subproblem for fixed binaries.
+NLP 16: OBJ: 64748.8251488  LB: 64336.0611399  UB: 64748.8251488
+
+
+MILP 16: Solve master problem.
+MIP 16: OBJ: 64431.5962167  LB: 64431.5962167  UB: 64748.8251488
+NLP 17: Solve subproblem for fixed binaries.
+NLP 17: OBJ: 66072.7042842  LB: 64431.5962167  UB: 64748.8251488
+
+
+MILP 17: Solve master problem.
+MIP 17: OBJ: 64431.5962167  LB: 64431.5962167  UB: 64748.8251488
+NLP 18: Solve subproblem for fixed binaries.
+NLP 18: OBJ: 68011.7243565  LB: 64431.5962167  UB: 64748.8251488
+
+
+MILP 18: Solve master problem.
+MIP 18: OBJ: 64431.5962167  LB: 64431.5962167  UB: 64748.8251488
+NLP 19: Solve subproblem for fixed binaries.
+NLP 19: OBJ: 65114.6285131  LB: 64431.5962167  UB: 64748.8251488
+
+
+MILP 19: Solve master problem.
+MIP 19: OBJ: 64748.825293  LB: 64748.825293  UB: 64748.8251488
+MindtPy exiting on bound convergence. LB: 64748.825293 + (tol 1e-06) >= UB: 64748.8251488
+
+Time elapsed: 8.08817887306

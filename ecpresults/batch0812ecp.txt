@@ -1,0 +1,90 @@
+batch0812.py
+MILP 0.1: maximize value of binaries
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 13432.8154039  LB: 13432.8154039  UB: inf
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 436104.50364  LB: 436104.50364  UB: inf
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 792856.190302  LB: 792856.190302  UB: inf
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 1253672.22822  LB: 1253672.22822  UB: inf
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: 1973332.62018  LB: 1973332.62018  UB: inf
+
+
+MILP 6: Solve master problem.
+MILP 6: OBJ: 2393981.49751  LB: 2393981.49751  UB: inf
+
+
+MILP 7: Solve master problem.
+MILP 7: OBJ: 2595450.46224  LB: 2595450.46224  UB: inf
+
+
+MILP 8: Solve master problem.
+MILP 8: OBJ: 2615047.15846  LB: 2615047.15846  UB: inf
+
+
+MILP 9: Solve master problem.
+MILP 9: OBJ: 2669313.70187  LB: 2669313.70187  UB: inf
+
+
+MILP 10: Solve master problem.
+MILP 10: OBJ: 2671626.72768  LB: 2671626.72768  UB: inf
+
+
+MILP 11: Solve master problem.
+MILP 11: OBJ: 2685903.54884  LB: 2685903.54884  UB: inf
+
+
+MILP 12: Solve master problem.
+MILP 12: OBJ: 2686058.62148  LB: 2686058.62148  UB: inf
+
+
+MILP 13: Solve master problem.
+MILP 13: OBJ: 2686613.04135  LB: 2686613.04135  UB: inf
+
+
+MILP 14: Solve master problem.
+MILP 14: OBJ: 2686916.3188  LB: 2686916.3188  UB: inf
+
+
+MILP 15: Solve master problem.
+MILP 15: OBJ: 2686997.80675  LB: 2686997.80675  UB: inf
+
+
+MILP 16: Solve master problem.
+MILP 16: OBJ: 2687020.33131  LB: 2687020.33131  UB: inf
+
+
+MILP 17: Solve master problem.
+MILP 17: OBJ: 2687024.86096  LB: 2687024.86096  UB: inf
+
+
+MILP 18: Solve master problem.
+MILP 18: OBJ: 2687026.53336  LB: 2687026.53336  UB: inf
+
+
+MILP 19: Solve master problem.
+MILP 19: OBJ: 2687026.68098  LB: 2687026.68098  UB: inf
+
+
+MILP 20: Solve master problem.
+MILP 20: OBJ: 2687026.75478  LB: 2687026.75478  UB: inf
+
+
+MILP 21: Solve master problem.
+ECP has found a feasible solution within a 0.0001 tolerance
+MILP 21: OBJ: 2687026.76629  LB: 2687026.76629  UB: 2687026.76629
+MindtPy exiting on bound convergence. LB: 2687026.76629 + (tol 1e-05) >= UB: 2687026.76629
+
+Time elapsed: 3.84773015976

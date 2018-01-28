@@ -1,0 +1,16 @@
+m3.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 37.8  LB: 37.8  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 37.7999994525  LB: 37.8  UB: 37.7999994525
+
+
+MindtPy exiting on bound convergence. LB: 37.8 + (tol 1e-06) >= UB: 37.7999994525
+
+Time elapsed: 0.252416849136

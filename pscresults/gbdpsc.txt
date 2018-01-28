@@ -1,0 +1,17 @@
+gbd.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 3.61249994001  LB: -inf  UB: 3.61249994001
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 2.08750001216  LB: 2.08750001216  UB: 3.61249994001
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 2.19999996501  LB: 2.08750001216  UB: 2.19999996501
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: 2.2  LB: 2.2  UB: 2.19999996501
+MindtPy exiting on bound convergence. LB: 2.2 + (tol 1e-06) >= UB: 2.19999996501
+
+Time elapsed: 0.287084102631

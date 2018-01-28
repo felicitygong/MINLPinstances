@@ -1,0 +1,11 @@
+clay0305m.py
+NLP 1: Solve relaxed integrality.
+Objective -2.55571398828e-05
+
+
+MILP 1: Solve master problem.
+MILP master problem is infeasible. Problem may have no more feasible binary configurations.
+MindtPy initialization may have generated poor quality cuts.
+MindtPy exiting on bound convergence. LB: inf + (tol 1e-06) >= UB: inf
+
+Time elapsed: 0.647495985031

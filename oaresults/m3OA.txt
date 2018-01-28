@@ -1,0 +1,14 @@
+m3.py
+NLP 1: Solve relaxed integrality.
+Objective -2.27707917284e-07
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 39.79201617  LB: 39.79201617  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 37.7999994525  LB: 39.79201617  UB: 37.7999994525
+
+
+MindtPy exiting on bound convergence. LB: 39.79201617 + (tol 1e-06) >= UB: 37.7999994525
+
+Time elapsed: 0.413630962372

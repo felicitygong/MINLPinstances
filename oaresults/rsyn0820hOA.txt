@@ -1,0 +1,46 @@
+rsyn0820h.py
+NLP 1: Solve relaxed integrality.
+Objective 1234.78090368
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 1167.3424902  LB: -inf  UB: 1167.3424902
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 964.243458892  LB: 964.243458892  UB: 1167.3424902
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: 1154.32431636  LB: 964.243458892  UB: 1154.32431636
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 1024.03931414  LB: 1024.03931414  UB: 1154.32431636
+
+
+MILP 3: Solve master problem.
+MIP 3: OBJ: 1150.30132063  LB: 1024.03931414  UB: 1150.30132063
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 1150.30118574  LB: 1150.30118574  UB: 1150.30132063
+
+
+MILP 4: Solve master problem.
+MIP 4: OBJ: 1150.30130239  LB: 1150.30118574  UB: 1150.30130239
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 1150.3011423  LB: 1150.30118574  UB: 1150.30130239
+
+
+MILP 5: Solve master problem.
+MIP 5: OBJ: 1150.30130064  LB: 1150.30118574  UB: 1150.30130064
+NLP 6: Solve subproblem for fixed binaries.
+NLP 6: OBJ: 1150.30114226  LB: 1150.30118574  UB: 1150.30130064
+
+
+MILP 6: Solve master problem.
+MIP 6: OBJ: 1150.30119437  LB: 1150.30118574  UB: 1150.30119437
+NLP 7: Solve subproblem for fixed binaries.
+NLP 7: OBJ: 1150.30119109  LB: 1150.30119109  UB: 1150.30119437
+
+
+MILP 7: Solve master problem.
+MIP 7: OBJ: 1150.30114489  LB: 1150.30119109  UB: 1150.30114489
+MindtPy exiting on bound convergence. LB: 1150.30119109 + (tol 1e-06) >= UB: 1150.30114489
+
+Time elapsed: 7.53420591354

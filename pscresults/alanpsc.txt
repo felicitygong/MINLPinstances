@@ -1,0 +1,29 @@
+alan.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 2.98214283554  LB: -inf  UB: 2.98214283554
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 2.35357147937  LB: 2.35357147937  UB: 2.98214283554
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 3.59999992141  LB: 2.35357147937  UB: 2.98214283554
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 2.61226418669  LB: 2.61226418669  UB: 2.98214283554
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 3.12352939041  LB: 2.61226418669  UB: 2.98214283554
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 2.70690185908  LB: 2.70690185908  UB: 2.98214283554
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 2.92499998651  LB: 2.70690185908  UB: 2.92499998651
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 2.92499999858  LB: 2.92499999858  UB: 2.92499998651
+MindtPy exiting on bound convergence. LB: 2.92499999858 + (tol 1e-05) >= UB: 2.92499998651
+
+Time elapsed: 0.692733049393

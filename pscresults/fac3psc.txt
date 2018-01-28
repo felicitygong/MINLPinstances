@@ -1,0 +1,29 @@
+fac3.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 36432816.3552  LB: -inf  UB: 36432816.3552
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: -3301771.02252  LB: -3301771.02252  UB: 36432816.3552
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 38310067.3171  LB: -3301771.02252  UB: 36432816.3552
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: 16585945.0137  LB: 16585945.0137  UB: 36432816.3552
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 31982309.7708  LB: 16585945.0137  UB: 31982309.7708
+
+
+MILP 3: Solve master problem.
+MIP 3: OBJ: 19393164.8329  LB: 19393164.8329  UB: 31982309.7708
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 34789529.5356  LB: 19393164.8329  UB: 31982309.7708
+
+
+MILP 4: Solve master problem.
+MIP 4: OBJ: 31982309.848  LB: 31982309.848  UB: 31982309.7708
+MindtPy exiting on bound convergence. LB: 31982309.848 + (tol 1e-06) >= UB: 31982309.7708
+
+Time elapsed: 0.766079902649

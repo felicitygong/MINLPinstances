@@ -1,0 +1,20 @@
+sssd08-04.py
+NLP 1: Solve relaxed integrality.
+Objective 68605.1649034
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 152995.091636  LB: 152995.091636  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 244939.135224  LB: 152995.091636  UB: 244939.135224
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: 244939.133558  LB: 244939.133558  UB: 244939.135224
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 244939.121279  LB: 244939.133558  UB: 244939.121279
+
+
+MindtPy exiting on bound convergence. LB: 244939.133558 + (tol 1e-06) >= UB: 244939.121279
+
+Time elapsed: 0.838979959488

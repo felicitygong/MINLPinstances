@@ -1,0 +1,59 @@
+slay04m.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 26070.3154294  LB: -inf  UB: 26070.3154294
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: -72559.6830863  LB: -72559.6830863  UB: 26070.3154294
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 19021.7643348  LB: -72559.6830863  UB: 19021.7643348
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: -4263.97723828  LB: -4263.97723828  UB: 19021.7643348
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 11137.1503023  LB: -4263.97723828  UB: 11137.1503023
+
+
+MILP 3: Solve master problem.
+MIP 3: OBJ: 2819.39829589  LB: 2819.39829589  UB: 11137.1503023
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 14445.4668271  LB: 2819.39829589  UB: 11137.1503023
+
+
+MILP 4: Solve master problem.
+MIP 4: OBJ: 6107.67391888  LB: 6107.67391888  UB: 11137.1503023
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 9975.66191245  LB: 6107.67391888  UB: 9975.66191245
+
+
+MILP 5: Solve master problem.
+MIP 5: OBJ: 7394.92883866  LB: 7394.92883866  UB: 9975.66191245
+NLP 6: Solve subproblem for fixed binaries.
+NLP 6: OBJ: 13996.9118753  LB: 7394.92883866  UB: 9975.66191245
+
+
+MILP 6: Solve master problem.
+MIP 6: OBJ: 8357.40982404  LB: 8357.40982404  UB: 9975.66191245
+NLP 7: Solve subproblem for fixed binaries.
+NLP 7: OBJ: 13501.5592311  LB: 8357.40982404  UB: 9975.66191245
+
+
+MILP 7: Solve master problem.
+MIP 7: OBJ: 8903.13797003  LB: 8903.13797003  UB: 9975.66191245
+NLP 8: Solve subproblem for fixed binaries.
+NLP 8: OBJ: 9859.65964091  LB: 8903.13797003  UB: 9859.65964091
+
+
+MILP 8: Solve master problem.
+MIP 8: OBJ: 9756.40839658  LB: 9756.40839658  UB: 9859.65964091
+NLP 9: Solve subproblem for fixed binaries.
+NLP 9: OBJ: 10650.4335225  LB: 9756.40839658  UB: 9859.65964091
+
+
+MILP 9: Solve master problem.
+MIP 9: OBJ: 9859.65970794  LB: 9859.65970794  UB: 9859.65964091
+MindtPy exiting on bound convergence. LB: 9859.65970794 + (tol 1e-06) >= UB: 9859.65964091
+
+Time elapsed: 2.40966415405

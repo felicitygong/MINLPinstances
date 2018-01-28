@@ -1,0 +1,71 @@
+m7.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 87.6399292018  LB: 87.6399292018  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: 91.3176049675  LB: 91.3176049675  UB: inf
+NLP 3: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 3: Solve master problem.
+MIP 3: OBJ: 93.4082  LB: 93.4082  UB: inf
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 167.438651759  LB: 93.4082  UB: 167.438651759
+
+
+MILP 4: Solve master problem.
+MIP 4: OBJ: 96.88789  LB: 96.88789  UB: 167.438651759
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 123.964373963  LB: 96.88789  UB: 123.964373963
+
+
+MILP 5: Solve master problem.
+MIP 5: OBJ: 98.2123976609  LB: 98.2123976609  UB: 123.964373963
+NLP 6: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 6: Solve master problem.
+MIP 6: OBJ: 103.291189689  LB: 103.291189689  UB: 123.964373963
+NLP 7: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 7: Solve master problem.
+MIP 7: OBJ: 104.123462797  LB: 104.123462797  UB: 123.964373963
+NLP 8: Solve subproblem for fixed binaries.
+NLP 8: OBJ: 148.619994955  LB: 104.123462797  UB: 123.964373963
+
+
+MILP 8: Solve master problem.
+MIP 8: OBJ: 106.437780043  LB: 106.437780043  UB: 123.964373963
+NLP 9: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 9: Solve master problem.
+MIP 9: OBJ: 106.7564  LB: 106.7564  UB: 123.964373963
+NLP 10: Solve subproblem for fixed binaries.
+NLP 10: OBJ: 106.756875114  LB: 106.7564  UB: 106.756875114
+
+
+MILP 10: Solve master problem.
+MIP 10: OBJ: 106.756876914  LB: 106.756876914  UB: 106.756875114
+MindtPy exiting on bound convergence. LB: 106.756876914 + (tol 1e-06) >= UB: 106.756875114
+
+Time elapsed: 7.25881004333

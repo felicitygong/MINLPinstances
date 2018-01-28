@@ -1,0 +1,48 @@
+squfl020-040.py
+===========================================================================
+ BARON version 17.8.9. Built: LNX-64 Wed Aug 9 15:54:55 EDT 2017 
+
+ If you use this software, please cite:
+ Tawarmalani, M. and N. V. Sahinidis, A polyhedral
+ branch-and-cut approach to global optimization,
+ Mathematical Programming, 103(2), 225-249, 2005.
+
+ BARON is a product of The Optimization Firm, LLC. http://www.minlp.com/
+ Parts of the BARON software were created at the
+ University of Illinois at Urbana-Champaign.
+===========================================================================
+ Licensee: Qi Chen at Carnegie Mellon University, qichen@andrew.cmu.edu.
+ Changing option LPSol to 8 (CLP) and continuing.
+ This BARON run may utilize the following subsolver(s)
+ For LP/MIP: CLP/CBC                                         
+ For NLP: IPOPT, FILTERSD, FILTERSQP
+===========================================================================
+ Doing local search
+ Solving bounding LP
+ Preprocessing found feasible solution with value  1338.59393814     
+ Starting multi-start local search
+ Done with local search
+===========================================================================
+  Iteration    Open nodes         Time (s)    Lower bound      Upper bound
+*         1             1             1.46     6.00000          209.255    
+          1             1             2.13     196.979          209.255    
+          8             6            37.91     196.979          209.255    
+ Unable to find/load CPLEX library libcplex.so: cannot open shared object file: No such file or directory
+ Unable to find/load CPLEX library libcplex1270.so: cannot open shared object file: No such file or directory
+         37             0            64.02     209.234          209.255    
+
+ Cleaning up
+
+                         *** Normal completion ***            
+
+ Wall clock time:                    64.03
+ Total CPU time used:                64.02
+
+ Total no. of BaR iterations:      37
+ Best solution found at node:       1
+ Max. no. of nodes in memory:       9
+ 
+ All done
+===========================================================================
+
+Time elapsed: 64.2829837799

@@ -1,0 +1,22 @@
+rsyn0820m.py
+NLP 1: Solve relaxed integrality.
+Objective 3896.23053227
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 1435.8351858  LB: -inf  UB: 1435.8351858
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 1120.01246707  LB: 1120.01246707  UB: 1435.8351858
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: 1150.89600089  LB: 1120.01246707  UB: 1150.89600089
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 1150.30057475  LB: 1150.30057475  UB: 1150.89600089
+
+
+MILP 3: Solve master problem.
+MIP 3: OBJ: 1150.30056082  LB: 1150.30057475  UB: 1150.30056082
+MindtPy exiting on bound convergence. LB: 1150.30057475 + (tol 1e-06) >= UB: 1150.30056082
+
+Time elapsed: 2.11063098907

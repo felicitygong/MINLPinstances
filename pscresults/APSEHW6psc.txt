@@ -1,0 +1,23 @@
+APSEHW6.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 10.9999997775  LB: -inf  UB: 10.9999997775
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 1.00000012878  LB: 1.00000012878  UB: 10.9999997775
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 4.99999991318  LB: 1.00000012878  UB: 4.99999991318
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: 1.50011926251  LB: 1.50011926251  UB: 4.99999991318
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 3.49999997448  LB: 1.50011926251  UB: 3.49999997448
+
+
+MILP 3: Solve master problem.
+MIP 3: OBJ: 3.5  LB: 3.5  UB: 3.49999997448
+MindtPy exiting on bound convergence. LB: 3.5 + (tol 1e-06) >= UB: 3.49999997448
+
+Time elapsed: 0.471916913986

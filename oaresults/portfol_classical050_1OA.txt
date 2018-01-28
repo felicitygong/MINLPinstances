@@ -1,0 +1,189 @@
+portfol_classical050_1.py
+NLP 1: Solve relaxed integrality.
+Objective -0.097774059381
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: -0.0977740827181  LB: -0.097774059381  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: -0.0977740827181  LB: -0.097774059381  UB: inf
+NLP 3: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 3: Solve master problem.
+MIP 3: OBJ: -0.0977740827181  LB: -0.097774059381  UB: inf
+NLP 4: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 4: Solve master problem.
+MIP 4: OBJ: -0.0977740827181  LB: -0.097774059381  UB: inf
+NLP 5: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 5: Solve master problem.
+MIP 5: OBJ: -0.0977740827181  LB: -0.097774059381  UB: inf
+NLP 6: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 6: Solve master problem.
+MIP 6: OBJ: -0.0977740827181  LB: -0.097774059381  UB: inf
+NLP 7: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 7: Solve master problem.
+MIP 7: OBJ: -0.0977740827181  LB: -0.097774059381  UB: inf
+NLP 8: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 8: Solve master problem.
+MIP 8: OBJ: -0.0977740827181  LB: -0.097774059381  UB: inf
+NLP 9: Solve subproblem for fixed binaries.
+NLP 9: OBJ: -0.0634451699801  LB: -0.097774059381  UB: -0.0634451699801
+
+
+MILP 9: Solve master problem.
+MIP 9: OBJ: -0.097774082151  LB: -0.097774059381  UB: -0.0634451699801
+NLP 10: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 10: Solve master problem.
+MIP 10: OBJ: -0.0977740825118  LB: -0.097774059381  UB: -0.0634451699801
+NLP 11: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 11: Solve master problem.
+MIP 11: OBJ: -0.0977740788069  LB: -0.097774059381  UB: -0.0634451699801
+NLP 12: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 12: Solve master problem.
+MIP 12: OBJ: -0.0977740788069  LB: -0.097774059381  UB: -0.0634451699801
+NLP 13: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 13: Solve master problem.
+MIP 13: OBJ: -0.0977740788069  LB: -0.097774059381  UB: -0.0634451699801
+NLP 14: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 14: Solve master problem.
+MIP 14: OBJ: -0.0977740788069  LB: -0.097774059381  UB: -0.0634451699801
+NLP 15: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 15: Solve master problem.
+MIP 15: OBJ: -0.0977740804206  LB: -0.097774059381  UB: -0.0634451699801
+NLP 16: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 16: Solve master problem.
+MIP 16: OBJ: -0.0977740788069  LB: -0.097774059381  UB: -0.0634451699801
+NLP 17: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 17: Solve master problem.
+MIP 17: OBJ: -0.0977740774889  LB: -0.097774059381  UB: -0.0634451699801
+NLP 18: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 18: Solve master problem.
+MIP 18: OBJ: -0.0977740788069  LB: -0.097774059381  UB: -0.0634451699801
+NLP 19: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 19: Solve master problem.
+MIP 19: OBJ: -0.0977740788069  LB: -0.097774059381  UB: -0.0634451699801
+NLP 20: Solve subproblem for fixed binaries.
+NLP 20: OBJ: -0.0636411478479  LB: -0.097774059381  UB: -0.0636411478479
+
+
+MILP 20: Solve master problem.
+MIP 20: OBJ: -0.0977740829965  LB: -0.097774059381  UB: -0.0636411478479
+NLP 21: Solve subproblem for fixed binaries.
+NLP 21: OBJ: -0.0717701633082  LB: -0.097774059381  UB: -0.0717701633082
+
+
+MILP 21: Solve master problem.
+MIP 21: OBJ: -0.097774068177  LB: -0.097774059381  UB: -0.0717701633082
+NLP 22: Solve subproblem for fixed binaries.
+NLP 22: OBJ: -0.0685962520043  LB: -0.097774059381  UB: -0.0717701633082
+
+
+MILP 22: Solve master problem.
+MIP 22: OBJ: -0.0977740121129  LB: -0.0977740121129  UB: -0.0717701633082
+NLP 23: Solve subproblem for fixed binaries.
+NLP 23: OBJ: -0.0661062217834  LB: -0.0977740121129  UB: -0.0717701633082
+
+
+MILP 23: Solve master problem.
+MIP 23: OBJ: -0.0977740783722  LB: -0.0977740121129  UB: -0.0717701633082
+NLP 24: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 24: Solve master problem.
+MIP 24: OBJ: -0.0977740730219  LB: -0.0977740121129  UB: -0.0717701633082
+NLP 25: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 25: Solve master problem.
+MIP 25: OBJ: -0.0977740730219  LB: -0.0977740121129  UB: -0.0717701633082
+NLP 26: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 26: Solve master problem.
+MIP 26: OBJ: -0.0977740569774  LB: -0.0977740121129  UB: -0.0717701633082
+NLP 27: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 27: Solve master problem.
+MIP 27: OBJ: -0.0977740569774  LB: -0.0977740121129  UB: -0.0717701633082
+NLP 28: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 28: Solve master problem.
+MIP 28: OBJ: -0.0977740730219  LB: -0.0977740121129  UB: -0.0717701633082
+NLP 29: Solve subproblem for fixed binaries.
+NLP 29: OBJ: -0.0745187126122  LB: -0.0977740121129  UB: -0.0745187126122
+
+
+MILP 29: Solve master problem.
+MIP 29: OBJ: -0.0977740642911  LB: -0.0977740121129  UB: -0.0745187126122
+NLP 30: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 30: Solve master problem.
+MIP 30: OBJ: -0.0977739274591  LB: -0.0977739274591  UB: -0.0745187126122
+NLP 31: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MindtPy unable to converge bounds after 30 master iterations.
+Final bound values: LB: -0.0977739274591  UB: -0.0745187126122
+
+Time elapsed: 15.4579761028

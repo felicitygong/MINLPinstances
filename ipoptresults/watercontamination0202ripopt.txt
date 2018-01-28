@@ -1,0 +1,71 @@
+watercontamination0202r.py
+Ipopt 3.12.8: 
+==> Warning: Treating 7 binary and 0 integer variables as continous.
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.12.8, running with linear solver ma27.
+
+Number of nonzeros in equality constraint Jacobian...:      195
+Number of nonzeros in inequality constraint Jacobian.:      376
+Number of nonzeros in Lagrangian Hessian.............:     4465
+
+Total number of variables............................:      195
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        7
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:       95
+Total number of inequality constraints...............:      188
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:      188
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  0.0000000e+00 6.08e+00 8.84e-01  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  2.8726552e+00 6.04e+00 4.90e+00  -1.0 7.83e+01    -  1.11e-03 7.46e-03f  1
+   2  4.8055066e+00 6.00e+00 4.94e+00  -1.0 8.63e+01    -  1.00e-03 5.89e-03f  1
+   3  7.9089870e+00 5.95e+00 4.90e+00  -1.0 8.27e+01    -  3.82e-03 8.91e-03f  1
+   4  1.2831863e+01 5.69e+00 1.52e+02  -1.0 9.39e+01    -  1.81e-03 4.32e-02f  1
+   5  1.2095268e+01 2.92e+00 2.81e+01  -1.0 9.41e+01    -  2.96e-02 4.87e-01f  1
+   6  6.9442756e+00 2.02e+00 2.18e+01  -1.0 5.51e+01    -  4.94e-01 3.08e-01f  1
+   7  9.3550800e-01 8.88e-16 1.52e+01  -1.0 4.35e+01    -  3.30e-01 1.00e+00f  1
+   8  4.1515632e-01 8.88e-16 1.66e+00  -1.0 2.00e+00    -  8.17e-01 1.00e+00f  1
+   9  1.4758408e-01 8.88e-16 2.12e+00  -1.0 1.03e+01    -  5.30e-01 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  1.2989191e-01 8.88e-16 6.09e-01  -1.0 1.27e+01    -  6.25e-01 1.00e+00f  1
+  11  4.5818569e-02 8.88e-16 2.19e-02  -1.7 7.02e+00    -  9.68e-01 1.00e+00f  1
+  12  4.5765664e-03 8.88e-16 3.77e-03  -2.5 4.54e+00    -  9.35e-01 1.00e+00f  1
+  13  3.8633559e-04 8.88e-16 2.04e-03  -3.8 1.03e+00    -  9.15e-01 1.00e+00f  1
+  14  1.8034777e-05 8.88e-16 1.50e-09  -3.8 7.38e+00    -  1.00e+00 1.00e+00f  1
+  15  8.0781941e-08 8.88e-16 9.65e-06  -5.7 1.74e-01    -  9.85e-01 1.00e+00f  1
+  16  6.0951429e-13 8.88e-16 2.51e-14  -8.6 9.49e-03    -  1.00e+00 1.00e+00h  1
+  17  3.1059164e-15 8.88e-16 9.09e-15  -9.0 4.63e+00    -  1.00e+00 1.00e+00h  1
+
+Number of Iterations....: 17
+
+                                   (scaled)                 (unscaled)
+Objective...............:   3.1059164059127172e-15    3.1059164059127172e-15
+Dual infeasibility......:   9.0909090910998750e-15    9.0909090910998750e-15
+Constraint violation....:   8.8817841970012523e-16    8.8817841970012523e-16
+Complementarity.........:   1.2722563522956255e-09    1.2722563522956255e-09
+Overall NLP error.......:   1.2722563522956255e-09    1.2722563522956255e-09
+
+
+Number of objective function evaluations             = 18
+Number of objective gradient evaluations             = 18
+Number of equality constraint evaluations            = 18
+Number of inequality constraint evaluations          = 18
+Number of equality constraint Jacobian evaluations   = 18
+Number of inequality constraint Jacobian evaluations = 18
+Number of Lagrangian Hessian evaluations             = 17
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.036
+Total CPU secs in NLP function evaluations           =      0.032
+
+EXIT: Optimal Solution Found.
+
+Time elapsed: 0.33690905571

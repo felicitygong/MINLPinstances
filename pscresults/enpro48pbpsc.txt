@@ -1,0 +1,23 @@
+enpro48pb.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 204984.449984  LB: -inf  UB: 204984.449984
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 179922.372196  LB: 179922.372196  UB: 204984.449984
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 189641.714685  LB: 179922.372196  UB: 189641.714685
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: 184422.669345  LB: 184422.669345  UB: 189641.714685
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 187277.25372  LB: 184422.669345  UB: 187277.25372
+
+
+MILP 3: Solve master problem.
+MIP 3: OBJ: 187277.259422  LB: 187277.259422  UB: 187277.25372
+MindtPy exiting on bound convergence. LB: 187277.259422 + (tol 1e-06) >= UB: 187277.25372
+
+Time elapsed: 1.03181409836

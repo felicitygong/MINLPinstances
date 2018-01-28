@@ -1,0 +1,50 @@
+rsyn0815m04h.py
+NLP 1: Solve relaxed integrality.
+Objective 3468.33090837
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 3433.31535264  LB: -inf  UB: 3433.31535264
+NLP 2: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: 3432.31462458  LB: -inf  UB: 3432.31462458
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 2556.29023164  LB: 2556.29023164  UB: 3432.31462458
+
+
+MILP 3: Solve master problem.
+MIP 3: OBJ: 3429.48198127  LB: 2556.29023164  UB: 3429.48198127
+NLP 4: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 4: Solve master problem.
+MIP 4: OBJ: 3428.48197863  LB: 2556.29023164  UB: 3428.48197863
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 3409.85706918  LB: 3409.85706918  UB: 3428.48197863
+
+
+MILP 5: Solve master problem.
+MIP 5: OBJ: 3419.29333673  LB: 3409.85706918  UB: 3419.29333673
+NLP 6: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+
+
+MILP 6: Solve master problem.
+MIP 6: OBJ: 3418.29334424  LB: 3409.85706918  UB: 3418.29334424
+NLP 7: Solve subproblem for fixed binaries.
+NLP 7: OBJ: 2935.75499419  LB: 3409.85706918  UB: 3418.29334424
+
+
+MILP 7: Solve master problem.
+MIP 7: OBJ: 3409.85727646  LB: 3409.85706918  UB: 3409.85727646
+NLP 8: Solve subproblem for fixed binaries.
+NLP 8: OBJ: 3409.85729389  LB: 3409.85729389  UB: 3409.85727646
+
+
+MindtPy exiting on bound convergence. LB: 3409.85729389 + (tol 1e-06) >= UB: 3409.85727646
+
+Time elapsed: 28.4802939892

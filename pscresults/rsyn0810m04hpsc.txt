@@ -1,0 +1,39 @@
+rsyn0810m04h.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 4219.31553985  LB: 4219.31553985  UB: inf
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 6626.70809558  LB: 4219.31553985  UB: 6626.70809558
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 5096.2430119  LB: 5096.2430119  UB: 6626.70809558
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: 6544.58121541  LB: 5096.2430119  UB: 6544.58121541
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 5711.46838487  LB: 5711.46838487  UB: 6544.58121541
+
+
+MILP 3: Solve master problem.
+MIP 3: OBJ: 5727.10034744  LB: 5711.46838487  UB: 5727.10034744
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 5580.86707926  LB: 5711.46838487  UB: 5727.10034744
+
+
+MILP 4: Solve master problem.
+MIP 4: OBJ: 5725.84213777  LB: 5711.46838487  UB: 5725.84213777
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 5675.47254668  LB: 5711.46838487  UB: 5725.84213777
+
+
+MILP 5: Solve master problem.
+MIP 5: OBJ: 5717.91128849  LB: 5711.46838487  UB: 5717.91128849
+NLP 6: Solve subproblem for fixed binaries.
+NLP 6: OBJ: 5717.98384896  LB: 5717.98384896  UB: 5717.91128849
+
+
+MindtPy exiting on bound convergence. LB: 5717.98384896 + (tol 1e-06) >= UB: 5717.91128849
+
+Time elapsed: 15.9237110615

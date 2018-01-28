@@ -1,0 +1,47 @@
+ibs2.py
+===========================================================================
+ BARON version 17.8.9. Built: LNX-64 Wed Aug 9 15:54:55 EDT 2017 
+
+ If you use this software, please cite:
+ Tawarmalani, M. and N. V. Sahinidis, A polyhedral
+ branch-and-cut approach to global optimization,
+ Mathematical Programming, 103(2), 225-249, 2005.
+
+ BARON is a product of The Optimization Firm, LLC. http://www.minlp.com/
+ Parts of the BARON software were created at the
+ University of Illinois at Urbana-Champaign.
+===========================================================================
+ Licensee: Qi Chen at Carnegie Mellon University, qichen@andrew.cmu.edu.
+ Changing option LPSol to 8 (CLP) and continuing.
+ This BARON run may utilize the following subsolver(s)
+ For LP/MIP: CLP/CBC                                         
+ For NLP: IPOPT, FILTERSD, FILTERSQP
+===========================================================================
+ Doing local search
+ Unable to find/load CPLEX library libcplex.so: cannot open shared object file: No such file or directory
+ Unable to find/load CPLEX library libcplex1270.so: cannot open shared object file: No such file or directory
+ Solving bounding LP
+ Starting multi-start local search
+ Estimated remaining time for local search is 58 secs
+ Done with local search
+===========================================================================
+  Iteration    Open nodes         Time (s)    Lower bound      Upper bound
+*         1             1           373.68      0.00000         5.68253    
+          1             1           383.14     5.25891          5.68253    
+*         4             0           399.06     5.25891          4.76118    
+          4             0           399.07     5.25891          4.76118    
+
+                  *** Problem is numerically sensitive ***    
+
+ Wall clock time:                   399.09
+ Total CPU time used:               399.07
+
+ Total no. of BaR iterations:       4
+ Best solution found at node:       4
+ Max. no. of nodes in memory:       3
+ 
+ All done
+===========================================================================
+WARNING - Loading a SolverResults object with a warning status into model=unknown; message from solver=<undefined>
+
+Time elapsed: 400.244020939

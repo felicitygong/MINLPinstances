@@ -1,0 +1,50 @@
+m6.py
+MILP 0.1: maximize value of binaries
+NLP 1: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 1: Solve master problem.
+MIP 1: OBJ: 67.96252082  LB: 67.96252082  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 143.178653156  LB: 67.96252082  UB: 143.178653156
+
+
+MILP 2: Solve master problem.
+MIP 2: OBJ: 72.1713083678  LB: 72.1713083678  UB: 143.178653156
+NLP 3: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 3: Solve master problem.
+MIP 3: OBJ: 76.9203478433  LB: 76.9203478433  UB: 143.178653156
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 105.959997887  LB: 76.9203478433  UB: 105.959997887
+
+
+MILP 4: Solve master problem.
+MIP 4: OBJ: 79.2436007852  LB: 79.2436007852  UB: 105.959997887
+NLP 5: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 5: Solve master problem.
+MIP 5: OBJ: 80.63868  LB: 80.63868  UB: 105.959997887
+NLP 6: Solve subproblem for fixed binaries.
+NLP 6: OBJ: 82.2855172208  LB: 80.63868  UB: 82.2855172208
+
+
+MILP 6: Solve master problem.
+MIP 6: OBJ: 82.2564  LB: 82.2564  UB: 82.2855172208
+NLP 7: Solve subproblem for fixed binaries.
+NLP 7: OBJ: 82.2568754455  LB: 82.2564  UB: 82.2568754455
+
+
+MILP 7: Solve master problem.
+MIP 7: OBJ: 82.2568769137  LB: 82.2568769137  UB: 82.2568754455
+MindtPy exiting on bound convergence. LB: 82.2568769137 + (tol 1e-06) >= UB: 82.2568754455
+
+Time elapsed: 2.83253908157

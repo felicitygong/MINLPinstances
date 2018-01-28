@@ -1,0 +1,46 @@
+ex4.py
+===========================================================================
+ BARON version 17.8.9. Built: LNX-64 Wed Aug 9 15:54:55 EDT 2017 
+
+ If you use this software, please cite:
+ Tawarmalani, M. and N. V. Sahinidis, A polyhedral
+ branch-and-cut approach to global optimization,
+ Mathematical Programming, 103(2), 225-249, 2005.
+
+ BARON is a product of The Optimization Firm, LLC. http://www.minlp.com/
+ Parts of the BARON software were created at the
+ University of Illinois at Urbana-Champaign.
+===========================================================================
+ Licensee: Qi Chen at Carnegie Mellon University, qichen@andrew.cmu.edu.
+ Changing option LPSol to 8 (CLP) and continuing.
+ This BARON run may utilize the following subsolver(s)
+ For LP/MIP: CLP/CBC                                         
+ For NLP: IPOPT, FILTERSD, FILTERSQP
+===========================================================================
+ Doing local search
+ Solving bounding LP
+ Starting multi-start local search
+ Done with local search
+===========================================================================
+  Iteration    Open nodes         Time (s)    Lower bound      Upper bound
+ Unable to find/load CPLEX library libcplex.so: cannot open shared object file: No such file or directory
+ Unable to find/load CPLEX library libcplex1270.so: cannot open shared object file: No such file or directory
+*         1             1             1.67    -19.9161         -8.49250    
+          1             1             1.81    -8.52262         -8.49250    
+          5             0             2.75    -8.49335         -8.49250    
+
+ Cleaning up
+
+                         *** Normal completion ***            
+
+ Wall clock time:                     2.74
+ Total CPU time used:                 2.75
+
+ Total no. of BaR iterations:       5
+ Best solution found at node:       5
+ Max. no. of nodes in memory:       2
+ 
+ All done
+===========================================================================
+
+Time elapsed: 2.82870078087
