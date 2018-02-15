@@ -16,7 +16,7 @@ os.chdir(fileDir)
 sys.path.append(os.getcwd())
 for filename in sorted(os.listdir('.')):
     # Only do things with .py files
-    if filename.endswith('.py') and filename in codefiles:
+    if filename.endswith('.py') and filename not in codefiles:
         name = os.path.splitext(filename)[0]
         print(name) 
         newname = name + '_baron.txt'
