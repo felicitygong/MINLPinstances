@@ -8,23 +8,25 @@ import pyomo.contrib.mindtpy.MindtPy
 from pyomo.environ import SolverFactory, value
 from cStringIO import StringIO
 
-codefiles = [
-    'fac1.py',
-    'portfol_buyin.py',
-    'portfol_card.py',
-    'APSEHW6.py',
-    'batch.py',
-    'batch0812.py',
-    'batchdes.py',
-    'batchs101006m.py',
-    'batchs121208m.py',
-    'batchs151208m.py',
-    'batchs201210m.py',
-    'clay0203h.py',
-    'clay0203m.py',
-    'clay0204h.py',
-    'clay0204m.py',
-    'clay0205h.py']
+codefiles = ['fac1.py'
+,'portfol_buyin.py'
+,'portfol_card.py'
+# ,'APSEHW6.py'
+,'batch.py'
+,'batch0812.py'
+,'batchdes.py'
+,'batchs101006m.py'
+,'batchs121208m.py'
+,'batchs151208m.py'
+,'batchs201210m.py'
+,'clay0203h.py'
+,'clay0203m.py'
+,'clay0204h.py'
+,'clay0204m.py'
+,'clay0205h.py'
+,'clay0303h.py'
+,'ex1223b.py'
+]
 skipexisting = 1
 timetable = [['Instance', 'Time Elapsed']]
 errortable = [['Instance', 'Error']]
