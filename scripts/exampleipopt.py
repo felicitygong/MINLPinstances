@@ -9,9 +9,9 @@ from pyomo.opt import SolverFactory
 from cStringIO import StringIO
 
 codefiles = ['convert.py', 'examplegbd.py', 'exampleoa.py', 'examplepsc.py', 'examplebaron.py', 'APSEHW6gbd.py', 'exampleipopt.py', 'portfol_buyin.py', 'portfol_card.py']
-errortable = [['Instance', 'Error']]
 skipexisting = 1
 timetable = [['Instance', 'Time Elapsed']]
+errortable = [['Instance', 'Error']]
 fileDir = os.path.dirname(os.path.realpath('__file__'))
 fileDir = os.path.join(fileDir, '../py')
 os.chdir(fileDir)
