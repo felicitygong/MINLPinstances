@@ -1,0 +1,30 @@
+fo7.py
+NLP 1: Solve relaxed integrality.
+NLP 1: OBJ: -6.66919753581e-08  LB: -6.66919753581e-08  UB: inf
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 18.1928117548  LB: 18.1928117548  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Solving feasibility problem
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 18.7721489244  LB: 18.7721489244  UB: inf
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 20.7298245657  LB: 18.7721489244  UB: 20.7298245657
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 18.788632465  LB: 18.788632465  UB: 20.7298245657
+NLP 4: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Solving feasibility problem
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 20.7298250698  LB: 20.7298250698  UB: 20.7298245657
+MindtPy exiting on bound convergence. LB: 20.7298250698 + (tol 1e-05) >= UB: 20.7298245657
+
+Time elapsed: <type 'datetime.date'>

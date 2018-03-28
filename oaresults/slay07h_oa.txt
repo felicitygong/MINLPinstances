@@ -1,0 +1,39 @@
+slay07h.py
+NLP 1: Solve relaxed integrality.
+NLP 1: OBJ: 61757.1398931  LB: 61757.1398931  UB: inf
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 62024.9660613  LB: 62024.9660613  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 66410.5566372  LB: 62024.9660613  UB: 66410.5566372
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 62024.9660617  LB: 62024.9660617  UB: 66410.5566372
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 78617.5188525  LB: 62024.9660617  UB: 66410.5566372
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 62024.9660615  LB: 62024.9660617  UB: 66410.5566372
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 71302.6743859  LB: 62024.9660617  UB: 66410.5566372
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 62024.9660613  LB: 62024.9660617  UB: 66410.5566372
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 64906.7427032  LB: 62024.9660617  UB: 64906.7427032
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: 62273.2624233  LB: 62273.2624233  UB: 64906.7427032
+NLP 6: Solve subproblem for fixed binaries.
+NLP 6: OBJ: 70031.2722687  LB: 62273.2624233  UB: 64906.7427032
+
+
+MindtPy unable to converge bounds after 5 master iterations.
+Final bound values: LB: 62273.2624233  UB: 64906.7427032
+
+Time elapsed: 4.03251600266

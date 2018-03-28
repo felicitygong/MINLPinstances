@@ -1,0 +1,10 @@
+clay0305m.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: -2.55571398828e-05  LB: -inf  UB: -2.55571398828e-05
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 8085.0  LB: 8085.0  UB: -2.55571398828e-05
+MindtPy exiting on bound convergence. LB: 8085.0 + (tol 1e-05) >= UB: -2.55571398828e-05
+
+Time elapsed: 0.544214010239

@@ -1,0 +1,250 @@
+gams01.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 1: Solve master problem.
+MILP master problem is unbounded. 
+MILP 1.1: maximize value of binaries
+NLP 2: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 2: Solve master problem.
+MILP master problem is unbounded. 
+MILP 2.1: maximize value of binaries
+NLP 3: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 3: Solve master problem.
+MILP master problem is unbounded. 
+MILP 3.1: maximize value of binaries
+NLP 4: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 4: Solve master problem.
+MILP master problem is unbounded. 
+MILP 4.1: maximize value of binaries
+NLP 5: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 5: Solve master problem.
+MILP master problem is unbounded. 
+MILP 5.1: maximize value of binaries
+NLP 6: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 6: Solve master problem.
+MILP master problem is unbounded. 
+MILP 6.1: maximize value of binaries
+NLP 7: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 7: Solve master problem.
+MILP master problem is unbounded. 
+MILP 7.1: maximize value of binaries
+NLP 8: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 8: Solve master problem.
+MILP master problem is unbounded. 
+MILP 8.1: maximize value of binaries
+NLP 9: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 9: Solve master problem.
+MILP master problem is unbounded. 
+MILP 9.1: maximize value of binaries
+NLP 10: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 10: Solve master problem.
+MILP master problem is unbounded. 
+MILP 10.1: maximize value of binaries
+NLP 11: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 11: Solve master problem.
+MILP master problem is unbounded. 
+MILP 11.1: maximize value of binaries
+NLP 12: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 12: Solve master problem.
+MILP master problem is unbounded. 
+MILP 12.1: maximize value of binaries
+NLP 13: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 13: Solve master problem.
+MILP master problem is unbounded. 
+MILP 13.1: maximize value of binaries
+NLP 14: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 14: Solve master problem.
+MILP master problem is unbounded. 
+MILP 14.1: maximize value of binaries
+NLP 15: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 15: Solve master problem.
+MILP master problem is unbounded. 
+MILP 15.1: maximize value of binaries
+NLP 16: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 16: Solve master problem.
+MILP master problem is unbounded. 
+MILP 16.1: maximize value of binaries
+NLP 17: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 17: Solve master problem.
+MILP master problem is unbounded. 
+MILP 17.1: maximize value of binaries
+NLP 18: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 18: Solve master problem.
+MILP master problem is unbounded. 
+MILP 18.1: maximize value of binaries
+NLP 19: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 19: Solve master problem.
+MILP master problem is unbounded. 
+MILP 19.1: maximize value of binaries
+NLP 20: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 20: Solve master problem.
+MILP master problem is unbounded. 
+MILP 20.1: maximize value of binaries
+NLP 21: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 21: Solve master problem.
+MILP master problem is unbounded. 
+MILP 21.1: maximize value of binaries
+NLP 22: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 22: Solve master problem.
+MILP master problem is unbounded. 
+MILP 22.1: maximize value of binaries
+NLP 23: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 23: Solve master problem.
+MILP master problem is unbounded. 
+MILP 23.1: maximize value of binaries
+NLP 24: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 24: Solve master problem.
+MILP master problem is unbounded. 
+MILP 24.1: maximize value of binaries
+NLP 25: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 25: Solve master problem.
+MILP master problem is unbounded. 
+MILP 25.1: maximize value of binaries
+NLP 26: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 26: Solve master problem.
+MILP master problem is unbounded. 
+MILP 26.1: maximize value of binaries
+NLP 27: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 27: Solve master problem.
+MILP master problem is unbounded. 
+MILP 27.1: maximize value of binaries
+NLP 28: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 28: Solve master problem.
+MILP master problem is unbounded. 
+MILP 28.1: maximize value of binaries
+NLP 29: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 29: Solve master problem.
+MILP master problem is unbounded. 
+MILP 29.1: maximize value of binaries
+NLP 30: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 30: Solve master problem.
+MILP master problem is unbounded. 
+MILP 30.1: maximize value of binaries
+NLP 31: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MindtPy unable to converge bounds after 30 master iterations.
+Final bound values: LB: -inf  UB: inf
+
+Time elapsed: 38.7872951031

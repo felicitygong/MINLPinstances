@@ -1,0 +1,13 @@
+risk2bpb.py
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: -107308.283619  LB: -107308.283619  UB: inf
+
+
+MILP 2: Solve master problem.
+ECP has found a feasible solution within a 0.0001 tolerance
+MILP 2: OBJ: -55.876139395  LB: -55.876139395  UB: -55.876139395
+MindtPy exiting on bound convergence. LB: -55.876139395 + (tol 1e-05) >= UB: -55.876139395
+
+Time elapsed: 0.798264980316

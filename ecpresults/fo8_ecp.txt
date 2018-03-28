@@ -1,0 +1,25 @@
+fo8.py
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 20.25  LB: 20.25  UB: inf
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 22.1871995276  LB: 22.1871995276  UB: inf
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 22.2814261263  LB: 22.2814261263  UB: inf
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 22.3816446398  LB: 22.3816446398  UB: inf
+
+
+MILP 5: Solve master problem.
+ECP has found a feasible solution within a 0.0001 tolerance
+MILP 5: OBJ: 22.3818943878  LB: 22.3818943878  UB: 22.3818943878
+MindtPy exiting on bound convergence. LB: 22.3818943878 + (tol 1e-05) >= UB: 22.3818943878
+
+Time elapsed: 48.58177495

@@ -1,0 +1,33 @@
+syn30m04m.py
+NLP 1: Solve relaxed integrality.
+NLP 1: OBJ: 6171.14775522  LB: -inf  UB: 6171.14775522
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 1630.30783402  LB: -inf  UB: 1630.30783402
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 856.053167968  LB: 856.053167968  UB: 1630.30783402
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 919.994639882  LB: 856.053167968  UB: 919.994639882
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 799.461355903  LB: 856.053167968  UB: 919.994639882
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 873.052978012  LB: 856.053167968  UB: 873.052978012
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 840.448251338  LB: 856.053167968  UB: 873.052978012
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 865.722001132  LB: 856.053167968  UB: 865.722001132
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 865.722200144  LB: 865.722200144  UB: 865.722001132
+
+
+MindtPy exiting on bound convergence. LB: 865.722200144 + (tol 1e-05) >= UB: 865.722001132
+
+
+Time elapsed: 4.68803882599

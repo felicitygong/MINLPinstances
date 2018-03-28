@@ -1,0 +1,61 @@
+syn30m03h.py
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 3322.36189222  LB: -inf  UB: 3322.36189222
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 2347.8916914  LB: -inf  UB: 2347.8916914
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 1249.33524378  LB: -inf  UB: 1249.33524378
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 811.63909425  LB: -inf  UB: 811.63909425
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: 731.882036397  LB: -inf  UB: 731.882036397
+
+
+MILP 6: Solve master problem.
+MILP 6: OBJ: 682.549124912  LB: -inf  UB: 682.549124912
+
+
+MILP 7: Solve master problem.
+MILP 7: OBJ: 673.523679321  LB: -inf  UB: 673.523679321
+
+
+MILP 8: Solve master problem.
+MILP 8: OBJ: 657.235085986  LB: -inf  UB: 657.235085986
+
+
+MILP 9: Solve master problem.
+MILP 9: OBJ: 655.139759288  LB: -inf  UB: 655.139759288
+
+
+MILP 10: Solve master problem.
+MILP 10: OBJ: 654.532833206  LB: -inf  UB: 654.532833206
+
+
+MILP 11: Solve master problem.
+MILP 11: OBJ: 654.391031897  LB: -inf  UB: 654.391031897
+
+
+MILP 12: Solve master problem.
+MILP 12: OBJ: 654.322097896  LB: -inf  UB: 654.322097896
+
+
+MILP 13: Solve master problem.
+MILP 13: OBJ: 654.309860841  LB: -inf  UB: 654.309860841
+
+
+MILP 14: Solve master problem.
+ECP has found a feasible solution within a 0.0001 tolerance
+MILP 14: OBJ: 654.307475592  LB: 654.307475592  UB: 654.307475592
+MindtPy exiting on bound convergence. LB: 654.307475592 + (tol 1e-05) >= UB: 654.307475592
+
+Time elapsed: 6.3588039875

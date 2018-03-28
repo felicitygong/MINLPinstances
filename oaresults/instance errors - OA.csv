@@ -1,0 +1,96 @@
+instance,error
+clay0204h, same error as other clays
+clay0205h,"   -ERROR: evaluating object as numeric value: x182**-1.0
+            (object: <class 'pyomo.core.kernel.expr_coopr3._PowExpression'>)
+        0.0 cannot be raised to a negative power
+ERROR: evaluating expression: 0.0 cannot be raised to a negative power
+            (expression: 2.0 * x182**-1.0 * ( x182 * ( 1e-06 + b232 )**-1.0 )**2.0)
+ERROR: evaluating object as numeric value: 2.0 * x182**-1.0 * ( x182 * ( 1e-06 + b232 )**-1.0 )**2.0
+            (object: <class 'pyomo.core.kernel.expr_coopr3._ProductExpression'>)
+        0.0 cannot be raised to a negative power
+ERROR: evaluating expression: 0.0 cannot be raised to a negative power
+            (expression:  - 25.0*( 1e-06 + b232 )**-1.0 + 2.0 * x182**-1.0 * ( x182 * ( 1e-06 + b232 )**-1.0 )**2.0)
+ERROR: evaluating object as numeric value:  - 25.0*( 1e-06 + b232 )**-1.0 + 2.0 * x182**-1.0 * ( x182 * ( 1e-06 + b232 )**-1.0 )**2.0
+            (object: <class 'pyomo.core.kernel.expr_coopr3._SumExpression'>)
+        0.0 cannot be raised to a negative power
+ERROR: evaluating expression: 0.0 cannot be raised to a negative power
+            (expression: ( 1e-06 + b232 ) * (  - 25.0*( 1e-06 + b232 )**-1.0 + 2.0 * x182**-1.0 * ( x182 * ( 1e-06 + b232 )**-1.0 )**2.0 ))
+ERROR: evaluating object as numeric value: ( 1e-06 + b232 ) * (  - 25.0*( 1e-06 + b232 )**-1.0 + 2.0 * x182**-1.0 * ( x182 * ( 1e-06 + b232 )**-1.0 )**2.0 )
+            (object: <class 'pyomo.core.kernel.expr_coopr3._ProductExpression'>)
+        0.0 cannot be raised to a negative power
+^CERROR: Solver (ipopt) returned non-zero return code (-1)
+ERROR: Solver log:
+        Ipopt 3.12.8:
+WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Ipopt 3.12.8\x3a Converged to a locally infeasible point. Problem may be infeasible."
+clay0305h,"ERROR: evaluating object as numeric value: x189**-1.0
+            (object: <class 'pyomo.core.kernel.expr_coopr3._PowExpression'>)
+        0.0 cannot be raised to a negative power
+ERROR: evaluating expression: 0.0 cannot be raised to a negative power
+            (expression: 2.0 * x189**-1.0 * ( x189 * ( 1e-06 + b244 )**-1.0 )**2.0)
+ERROR: evaluating object as numeric value: 2.0 * x189**-1.0 * ( x189 * ( 1e-06 + b244 )**-1.0 )**2.0
+           (object: <class 'pyomo.core.kernel.expr_coopr3._ProductExpression'>)
+        0.0 cannot be raised to a negative power
+ERROR: evaluating expression: 0.0 cannot be raised to a negative power
+            (expression:  - 23.0*( 1e-06 + b244 )**-1.0 + 2.0 * x189**-1.0 * ( x189 * ( 1e-06 + b244 )**-1.0 )**2.0)
+ERROR: evaluating object as numeric value:  - 23.0*( 1e-06 + b244 )**-1.0 + 2.0 * x189**-1.0 * ( x189 * ( 1e-06 + b244 )**-1.0 )**2.0
+            (object: <class 'pyomo.core.kernel.expr_coopr3._SumExpression'>)
+        0.0 cannot be raised to a negative power
+ERROR: evaluating expression: 0.0 cannot be raised to a negative power
+            (expression: ( 1e-06 + b244 ) * (  - 23.0*( 1e-06 + b244 )**-1.0 + 2.0 * x189**-1.0 * ( x189 * ( 1e-06 + b244 )**-1.0 )**2.0 ))
+ERROR: evaluating object as numeric value: ( 1e-06 + b244 ) * (  - 23.0*( 1e-06 + b244 )**-1.0 + 2.0 * x189**-1.0 * ( x189 * ( 1e-06 + b244 )**-1.0 )**2.0 )
+            (object: <class 'pyomo.core.kernel.expr_coopr3._ProductExpression'>)
+        0.0 cannot be raised to a negative power
+WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Ipopt 3.12.8\x3a Converged to a locally infeasible point. Problem may be infeasible."
+fac1,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Ipopt 3.12.8\x3a Converged to a locally infeasible point. Problem may be infeasible."
+portfol_buyin,"ERROR: Solver log:
+        Ipopt 3.12.8: 
+
+        ******************************************************************************
+        This program contains Ipopt, a library for large-scale nonlinear optimization.
+         Ipopt is released as open source code under the Eclipse Public License (EPL).
+                 For more information visit http://projects.coin-or.org/Ipopt
+        ******************************************************************************
+
+        This is Ipopt version 3.12.8, running with linear solver ma27.
+
+        Number of nonzeros in equality constraint Jacobian...:        8
+        Number of nonzeros in inequality constraint Jacobian.:       51
+        Number of nonzeros in Lagrangian Hessian.............:       36
+
+        Error evaluating constraint 1: can't evaluate sqrt'(0)."
+portfol_card,"ERROR: Solver log:
+        Ipopt 3.12.8: 
+
+        ******************************************************************************
+        This program contains Ipopt, a library for large-scale nonlinear optimization.
+         Ipopt is released as open source code under the Eclipse Public License (EPL).
+                 For more information visit http://projects.coin-or.org/Ipopt
+        ******************************************************************************
+
+        This is Ipopt version 3.12.8, running with linear solver ma27.
+
+        Number of nonzeros in equality constraint Jacobian...:    40400
+        Number of nonzeros in inequality constraint Jacobian.:      601
+        Number of nonzeros in Lagrangian Hessian.............:      200
+
+        Total number of variables............................:      401
+                             variables with only lower bounds:        0
+                        variables with lower and upper bounds:      200
+                             variables with only upper bounds:        0
+        Total number of equality constraints.................:      201
+        Total number of inequality constraints...............:      202
+                inequality constraints with only lower bounds:        0
+           inequality constraints with lower and upper bounds:        0
+                inequality constraints with only upper bounds:      202
+
+        iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+           0 -1.2462864e-01 1.00e+00 9.49e-02  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0"
+,
+super slow instances (works?),
+watercontamination0202,
+watercontamination0202r,
+watercontamination0303,
+watercontamination0303r,

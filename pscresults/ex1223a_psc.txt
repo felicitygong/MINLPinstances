@@ -1,0 +1,22 @@
+ex1223a.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 7.9500711367  LB: -inf  UB: 7.9500711367
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 2.85237214136  LB: 2.85237214136  UB: 7.9500711367
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 5.80685274262  LB: 2.85237214136  UB: 5.80685274262
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 3.80679097267  LB: 3.80679097267  UB: 5.80685274262
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 4.57958234813  LB: 3.80679097267  UB: 4.57958234813
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 4.5795823998  LB: 4.5795823998  UB: 4.57958234813
+MindtPy exiting on bound convergence. LB: 4.5795823998 + (tol 1e-05) >= UB: 4.57958234813
+
+Time elapsed: 0.581987142563

@@ -1,0 +1,17 @@
+batchdes.py
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 132948.209299  LB: 132948.209299  UB: inf
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 167423.206932  LB: 167423.206932  UB: inf
+
+
+MILP 3: Solve master problem.
+ECP has found a feasible solution within a 0.0001 tolerance
+MILP 3: OBJ: 167427.657035  LB: 167427.657035  UB: 167427.657035
+MindtPy exiting on bound convergence. LB: 167427.657035 + (tol 1e-05) >= UB: 167427.657035
+
+Time elapsed: 0.364341974258

@@ -1,0 +1,12 @@
+flay02h.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 1: Solve master problem.
+MILP master problem is infeasible. Problem may have no more feasible binary configurations.
+MindtPy initialization may have generated poor quality cuts.
+MindtPy exiting on bound convergence. LB: inf + (tol 1e-05) >= UB: inf
+
+Time elapsed: 0.488646030426

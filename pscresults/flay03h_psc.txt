@@ -1,0 +1,53 @@
+flay03h.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 30.3417277541  LB: 30.3417277541  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 48.9897944329  LB: 30.3417277541  UB: 48.9897944329
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 44.1718754193  LB: 44.1718754193  UB: 48.9897944329
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 48.9897945667  LB: 44.1718754193  UB: 48.9897944329
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 44.7044963238  LB: 44.7044963238  UB: 48.9897944329
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 48.9897945886  LB: 44.7044963238  UB: 48.9897944329
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 45.1343244901  LB: 45.1343244901  UB: 48.9897944329
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 48.9897945739  LB: 45.1343244901  UB: 48.9897944329
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: 45.6438035797  LB: 45.6438035797  UB: 48.9897944329
+NLP 6: Solve subproblem for fixed binaries.
+NLP 6: OBJ: 48.9897945723  LB: 45.6438035797  UB: 48.9897944329
+
+
+MILP 6: Solve master problem.
+MILP 6: OBJ: 46.1670013664  LB: 46.1670013664  UB: 48.9897944329
+NLP 7: Solve subproblem for fixed binaries.
+NLP 7: OBJ: 48.9897945676  LB: 46.1670013664  UB: 48.9897944329
+
+
+MILP 7: Solve master problem.
+MILP 7: OBJ: 47.4040482165  LB: 47.4040482165  UB: 48.9897944329
+NLP 8: Solve subproblem for fixed binaries.
+NLP 8: OBJ: 48.9897945659  LB: 47.4040482165  UB: 48.9897944329
+
+
+MILP 8: Solve master problem.
+MILP 8: OBJ: 48.9897948454  LB: 48.9897948454  UB: 48.9897944329
+MindtPy exiting on bound convergence. LB: 48.9897948454 + (tol 1e-05) >= UB: 48.9897944329
+
+Time elapsed: 2.03543519974

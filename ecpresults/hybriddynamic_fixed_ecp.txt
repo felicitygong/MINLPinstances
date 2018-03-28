@@ -1,0 +1,13 @@
+hybriddynamic_fixed.py
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: -9.26222222222  LB: -9.26222222222  UB: inf
+
+
+MILP 2: Solve master problem.
+ECP has found a feasible solution within a 0.0001 tolerance
+MILP 2: OBJ: 1.47377777778  LB: 1.47377777778  UB: 1.47377777778
+MindtPy exiting on bound convergence. LB: 1.47377777778 + (tol 1e-05) >= UB: 1.47377777778
+
+Time elapsed: 0.443407058716

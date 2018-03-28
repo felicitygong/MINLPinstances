@@ -1,0 +1,1047 @@
+instance,error
+ex1223,"Traceback (most recent call last):
+  File ""exampleecp.py"", line 37, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 301, in solve
+    self._MindtPy_initialize_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 432, in _MindtPy_initialize_master
+    self._add_ecp_cut()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1192, in _add_ecp_cut
+    value(constr.body) - rhs) <= 0)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/constraint.py"", line 1194, in add
+    return self.__setitem__(next_idx, expr)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/indexed_component.py"", line 611, in __setitem__
+    return self._setitem_when_not_present(index, val)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/constraint.py"", line 728, in _setitem_when_not_present
+    if self._check_skip_add(index, value) is None:
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/constraint.py"", line 908, in _check_skip_add
+    _get_indexed_component_data_name(self,index)))
+ValueError: Invalid constraint expression. The constraint expression resolved to a trivial Boolean (True) instead of a Pyomo object. Please modify your rule to return Constraint.Feasible instead of True.
+
+Error thrown for Constraint 'MindtPy_linear_cuts.ecp_cuts[1]'"
+ex1223b,"Traceback (most recent call last):
+  File ""exampleecp.py"", line 37, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 301, in solve
+    self._MindtPy_initialize_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 432, in _MindtPy_initialize_master
+    self._add_ecp_cut()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1192, in _add_ecp_cut
+    value(constr.body) - rhs) <= 0)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/constraint.py"", line 1194, in add
+    return self.__setitem__(next_idx, expr)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/indexed_component.py"", line 611, in __setitem__
+    return self._setitem_when_not_present(index, val)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/constraint.py"", line 728, in _setitem_when_not_present
+    if self._check_skip_add(index, value) is None:
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/constraint.py"", line 908, in _check_skip_add
+    _get_indexed_component_data_name(self,index)))
+ValueError: Invalid constraint expression. The constraint expression resolved to a trivial Boolean (True) instead of a Pyomo object. Please modify your rule to return Constraint.Feasible instead of True.
+
+Error thrown for Constraint 'MindtPy_linear_cuts.ecp_cuts[2]'"
+fac1,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 39, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+fac2,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 40, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+fac3,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 41, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+gams01,took over 2 days (stopped)
+meanvarx,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 84, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+netmod_dol1,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 91, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+netmod_dol2,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 92, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+"netmod_kar1
+","WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 93, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+netmod_kar2,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 94, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+portfol_buyin,"x8 - 0.0139090909091*x2 ) - 0.00014935064935*( 0.548045454545*x8 - 0.290227272727*x7 - 0.150909090909*x2 - 0.308636363636*x4 - 0.00313636363636*x1 - 0.267772727273*x3 - 0.0687727272727*x6 - 0.423318181818*x5 ) - 0.00157792207792*(  - 0.0632272727273*x7 - 0.203909090909*x2 - 0.124636363636*x4 - 0.153318181818*x5 - 0.107772727273*x3 - 0.126772727273*x6 - 0.0331363636364*x1 - 0.138954545455*x8 ) - 0.00100649350649*( 0.184227272727*x3 + 0.0692272727273*x6 + 0.100090909091*x2 + 0.218363636364*x4 + 0.472681818182*x5 - 0.170954545455*x8 - 0.0211363636364*x1 - 0.0202272727273*x7 ) - 0.00124458874459*( 0.158681818182*x5 + 0.0642272727273*x6 + 0.0820909090909*x2 + 0.142363636364*x4 + 0.116227272727*x3 - 0.168954545455*x8 - 0.0261363636364*x1 - 0.116227272727*x7 ) - 0.00072077922078*( 0.0642272727273*x6 + 0.0662272727273*x3 + 0.0870454545455*x8 + 0.0373636363636*x4 + 0.552772727273*x7 + 0.216090909091*x2 - 0.0353181818182*x5 - 0.0151363636364*x1 ) - 0.000816017316018*( 0.212772727273*x7 + 0.0312272727273*x6 + 0.251227272727*x3 + 0.261363636364*x4 + 0.196681818182*x5 - 0.0171363636364*x1 - 0.0369090909091*x2 - 0.368954545455*x8 ) - 0.000816017316018*( 0.104772727273*x7 + 0.115045454545*x8 - 0.0677727272727*x3 - 0.162318181818*x5 - 0.0171363636364*x1 - 0.0687727272727*x6 - 0.167909090909*x2 - 0.100636363636*x4 ) )
+            (object: <class 'pyomo.core.kernel.expr_coopr3._SumExpression'>)
+        0.0 cannot be raised to a negative power
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 95, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 301, in solve
+    self._MindtPy_initialize_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 432, in _MindtPy_initialize_master
+    self._add_ecp_cut()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1192, in _add_ecp_cut
+    value(constr.body) - rhs) <= 0)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1191, in <genexpr>
+    for var in list(EXPR.identify_variables(constr.body))) +
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in _apply_operation
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in <genexpr>
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 709, in __call__
+    exception=exception):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 311, in _apply_operation
+    return self._operator(*tuple(values))
+ZeroDivisionError: 0.0 cannot be raised to a negative power"
+portfol_card,"x8 - 0.0139090909091*x2 ) - 0.00014935064935*( 0.548045454545*x8 - 0.290227272727*x7 - 0.150909090909*x2 - 0.308636363636*x4 - 0.00313636363636*x1 - 0.267772727273*x3 - 0.0687727272727*x6 - 0.423318181818*x5 ) - 0.00157792207792*(  - 0.0632272727273*x7 - 0.203909090909*x2 - 0.124636363636*x4 - 0.153318181818*x5 - 0.107772727273*x3 - 0.126772727273*x6 - 0.0331363636364*x1 - 0.138954545455*x8 ) - 0.00100649350649*( 0.184227272727*x3 + 0.0692272727273*x6 + 0.100090909091*x2 + 0.218363636364*x4 + 0.472681818182*x5 - 0.170954545455*x8 - 0.0211363636364*x1 - 0.0202272727273*x7 ) - 0.00124458874459*( 0.158681818182*x5 + 0.0642272727273*x6 + 0.0820909090909*x2 + 0.142363636364*x4 + 0.116227272727*x3 - 0.168954545455*x8 - 0.0261363636364*x1 - 0.116227272727*x7 ) - 0.00072077922078*( 0.0642272727273*x6 + 0.0662272727273*x3 + 0.0870454545455*x8 + 0.0373636363636*x4 + 0.552772727273*x7 + 0.216090909091*x2 - 0.0353181818182*x5 - 0.0151363636364*x1 ) - 0.000816017316018*( 0.212772727273*x7 + 0.0312272727273*x6 + 0.251227272727*x3 + 0.261363636364*x4 + 0.196681818182*x5 - 0.0171363636364*x1 - 0.0369090909091*x2 - 0.368954545455*x8 ) - 0.000816017316018*( 0.104772727273*x7 + 0.115045454545*x8 - 0.0677727272727*x3 - 0.162318181818*x5 - 0.0171363636364*x1 - 0.0687727272727*x6 - 0.167909090909*x2 - 0.100636363636*x4 ) )
+            (object: <class 'pyomo.core.kernel.expr_coopr3._SumExpression'>)
+        0.0 cannot be raised to a negative power
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 98, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 301, in solve
+    self._MindtPy_initialize_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 432, in _MindtPy_initialize_master
+    self._add_ecp_cut()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1192, in _add_ecp_cut
+    value(constr.body) - rhs) <= 0)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1191, in <genexpr>
+    for var in list(EXPR.identify_variables(constr.body))) +
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in _apply_operation
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in <genexpr>
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 709, in __call__
+    exception=exception):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 311, in _apply_operation
+    return self._operator(*tuple(values))
+ZeroDivisionError: 0.0 cannot be raised to a negative power"
+portfol_classical050_1,"Traceback (most recent call last):
+  File ""exampleecp.py"", line 99, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 301, in solve
+    self._MindtPy_initialize_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 432, in _MindtPy_initialize_master
+    self._add_ecp_cut()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1192, in _add_ecp_cut
+    value(constr.body) - rhs) <= 0)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/constraint.py"", line 1194, in add
+    return self.__setitem__(next_idx, expr)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/indexed_component.py"", line 611, in __setitem__
+    return self._setitem_when_not_present(index, val)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/constraint.py"", line 728, in _setitem_when_not_present
+    if self._check_skip_add(index, value) is None:
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/constraint.py"", line 908, in _check_skip_add
+    _get_indexed_component_data_name(self,index)))
+ValueError: Invalid constraint expression. The constraint expression resolved to a trivial Boolean (True) instead of a Pyomo object. Please modify your rule to return Constraint.Feasible instead of True.
+
+Error thrown for Constraint 'MindtPy_linear_cuts.ecp_cuts[1]'"
+portfol_classical200_2,"Traceback (most recent call last):
+  File ""exampleecp.py"", line 100, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 301, in solve
+    self._MindtPy_initialize_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 432, in _MindtPy_initialize_master
+    self._add_ecp_cut()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1192, in _add_ecp_cut
+    value(constr.body) - rhs) <= 0)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/constraint.py"", line 1194, in add
+    return self.__setitem__(next_idx, expr)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/indexed_component.py"", line 611, in __setitem__
+    return self._setitem_when_not_present(index, val)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/constraint.py"", line 728, in _setitem_when_not_present
+    if self._check_skip_add(index, value) is None:
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/constraint.py"", line 908, in _check_skip_add
+    _get_indexed_component_data_name(self,index)))
+ValueError: Invalid constraint expression. The constraint expression resolved to a trivial Boolean (True) instead of a Pyomo object. Please modify your rule to return Constraint.Feasible instead of True.
+
+Error thrown for Constraint 'MindtPy_linear_cuts.ecp_cuts[1]'"
+procurement2mot,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 101, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+rsyn0805m03h,"ERROR: evaluating object as numeric value: log( 1 + x956 / ( 1e-06 + b1022 ) )
+            (object: <class 'pyomo.core.kernel.expr_coopr3._IntrinsicFunctionExpression'>)
+        math domain error
+ERROR: evaluating expression: math domain error
+            (expression: x968 / ( 1e-06 + b1022 ) - log( 1 + x956 / ( 1e-06 + b1022 ) ))
+ERROR: evaluating object as numeric value: x968 / ( 1e-06 + b1022 ) - log( 1 + x956 / ( 1e-06 + b1022 ) )
+            (object: <class 'pyomo.core.kernel.expr_coopr3._SumExpression'>)
+        math domain error
+ERROR: evaluating expression: math domain error
+            (expression: ( x968 / ( 1e-06 + b1022 ) - log( 1 + x956 / ( 1e-06 + b1022 ) ) ) * ( 1e-06 + b1022 ))
+ERROR: evaluating object as numeric value: ( x968 / ( 1e-06 + b1022 ) - log( 1 + x956 / ( 1e-06 + b1022 ) ) ) * ( 1e-06 + b1022 )
+            (object: <class 'pyomo.core.kernel.expr_coopr3._ProductExpression'>)
+        math domain error
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 102, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 733, in _solve_ECP_master
+    for c in self.nonlinear_constraints):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 733, in <genexpr>
+    for c in self.nonlinear_constraints):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 709, in __call__
+    exception=exception):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in _apply_operation
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in <genexpr>
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 311, in _apply_operation
+    return self._operator(*tuple(values))
+ValueError: math domain error"
+rsyn0810m03h,"rsyn0810m03h
+ERROR: evaluating object as numeric value: log( 1 + x1001 / ( 1e-06 + b1127 ) )
+            (object: <class 'pyomo.core.kernel.expr_coopr3._IntrinsicFunctionExpression'>)
+        math domain error
+ERROR: evaluating expression: math domain error
+            (expression: x1013 / ( 1e-06 + b1127 ) - log( 1 + x1001 / ( 1e-06 + b1127 ) ))
+ERROR: evaluating object as numeric value: x1013 / ( 1e-06 + b1127 ) - log( 1 + x1001 / ( 1e-06 + b1127 ) )
+            (object: <class 'pyomo.core.kernel.expr_coopr3._SumExpression'>)
+        math domain error
+ERROR: evaluating expression: math domain error
+            (expression: ( x1013 / ( 1e-06 + b1127 ) - log( 1 + x1001 / ( 1e-06 + b1127 ) ) ) * ( 1e-06 + b1127 ))
+ERROR: evaluating object as numeric value: ( x1013 / ( 1e-06 + b1127 ) - log( 1 + x1001 / ( 1e-06 + b1127 ) ) ) * ( 1e-06 + b1127 )
+            (object: <class 'pyomo.core.kernel.expr_coopr3._ProductExpression'>)
+        math domain error
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 109, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 733, in _solve_ECP_master
+    for c in self.nonlinear_constraints):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 733, in <genexpr> 
+    for c in self.nonlinear_constraints):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 709, in __call__  
+    exception=exception):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__  
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in _apply_operation
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in <genexpr> 
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__  
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 311, in _apply_operation
+    return self._operator(*tuple(values))
+ValueError: math domain error"
+rsyn0810m04h,"    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 580, in _MindtPy_iteration_loop
+    self._add_ecp_cut()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1183, in _add_ecp_cut
+    for constr in gen:
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1179, in <genexpr>
+    else abs(value(constr.body) - constr.upper)) +
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 709, in __call__
+    exception=exception):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in _apply_operation
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in <genexpr>
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 311, in _apply_operation
+    return self._operator(*tuple(values))
+ValueError: math domain error"
+rsyn0815m02h,"    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 580, in _MindtPy_iteration_loop
+    self._add_ecp_cut()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1183, in _add_ecp_cut
+    for constr in gen:
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1179, in <genexpr> 
+    else abs(value(constr.body) - constr.upper)) +
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 709, in __call__   
+    exception=exception):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__   
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in _apply_operation
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in <genexpr>  
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__   
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 311, in _apply_operation
+    return self._operator(*tuple(values))
+ValueError: math domain error"
+rsyn0815m04h,"   SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 733, in _solve_ECP_master
+    for c in self.nonlinear_constraints):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 733, in <genexpr>
+    for c in self.nonlinear_constraints):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 709, in __call__
+    exception=exception):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in _apply_operation
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in <genexpr>
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 311, in _apply_operation
+    return self._operator(*tuple(values))
+ValueError: math domain error"
+rsyn0820h,"Traceback (most recent call last):
+  File ""exampleecp.py"", line 128, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 733, in _solve_ECP_master
+    for c in self.nonlinear_constraints):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 733, in <genexpr>  
+    for c in self.nonlinear_constraints):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 709, in __call__   
+    exception=exception):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__   
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in _apply_operation
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in <genexpr>  
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__   
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 311, in _apply_operation
+    return self._operator(*tuple(values))
+ValueError: math domain error"
+rsyn0820m02h,"Traceback (most recent call last):
+  File ""exampleecp.py"", line 130, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 733, in _solve_ECP_master
+    for c in self.nonlinear_constraints):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 733, in <genexpr>
+    for c in self.nonlinear_constraints):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 709, in __call__
+    exception=exception):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in _apply_operation
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in <genexpr>
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 311, in _apply_operation
+    return self._operator(*tuple(values))
+ValueError: math domain error"
+rsyn0820m03h,"Traceback (most recent call last):
+  File ""exampleecp.py"", line 132, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 733, in _solve_ECP_master
+    for c in self.nonlinear_constraints):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 733, in <genexpr>
+    for c in self.nonlinear_constraints):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 709, in __call__
+    exception=exception):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in _apply_operation
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in <genexpr>
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 311, in _apply_operation
+    return self._operator(*tuple(values))
+ValueError: math domain error"
+rsyn0820m04h,"Traceback (most recent call last):
+  File ""exampleecp.py"", line 134, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 733, in _solve_ECP_master
+    for c in self.nonlinear_constraints):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 733, in <genexpr>
+    for c in self.nonlinear_constraints):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 709, in __call__
+    exception=exception):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in _apply_operation
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in <genexpr>
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 311, in _apply_operation
+    return self._operator(*tuple(values))
+ValueError: math domain error"
+squfl010-025,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 166, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve   
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+squfl010-040,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 168, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+squfl010-080,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 169, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+squfl015-060,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 170, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+squfl015-080,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 171, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+squfl020-040,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 172, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+squfl020-050,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 173, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+squfl020-150,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 174, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+squfl025-025,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 175, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+squfl025-030,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 176, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+squfl025-040,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 177, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+squfl030-100,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 178, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+squfl030-150,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 179, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."
+squfl040-080,ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded.
+st_e14,"Traceback (most recent call last):
+  File ""exampleecp.py"", line 181, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 301, in solve
+    self._MindtPy_initialize_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 432, in _MindtPy_initialize_master
+    self._add_ecp_cut()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1192, in _add_ecp_cut
+    value(constr.body) - rhs) <= 0)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/constraint.py"", line 1194, in add
+    return self.__setitem__(next_idx, expr)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/indexed_component.py"", line 611, in __setitem__
+    return self._setitem_when_not_present(index, val)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/constraint.py"", line 728, in _setitem_when_not_present
+    if self._check_skip_add(index, value) is None:
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/constraint.py"", line 908, in _check_skip_add
+    _get_indexed_component_data_name(self,index)))
+ValueError: Invalid constraint expression. The constraint expression resolved to a trivial Boolean (True) instead of a Pyomo object. Please modify your rule to return Constraint.Feasible instead of True.
+
+Error thrown for Constraint 'MindtPy_linear_cuts.ecp_cuts[1]'"
+syn15m02h,"Traceback (most recent call last):
+  File ""exampleecp.py"", line 195, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 580, in _MindtPy_iteration_loop
+    self._add_ecp_cut()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1183, in _add_ecp_cut
+    for constr in gen:
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1179, in <genexpr>
+    else abs(value(constr.body) - constr.upper)) +
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 709, in __call__
+    exception=exception):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in _apply_operation
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in <genexpr>
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 311, in _apply_operation
+    return self._operator(*tuple(values))
+ValueError: math domain error"
+syn15m03h,"  File ""exampleecp.py"", line 215, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 580, in _MindtPy_iteration_loop
+    self._add_ecp_cut()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1183, in _add_ecp_cut
+    for constr in gen:
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1179, in <genexpr>
+    else abs(value(constr.body) - constr.upper)) +
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 709, in __call__
+    exception=exception):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in _apply_operation
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in <genexpr>
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 311, in _apply_operation
+    return self._operator(*tuple(values))
+ValueError: math domain error"
+syn20m02h,"  File ""exampleecp.py"", line 217, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 580, in _MindtPy_iteration_loop
+    self._add_ecp_cut()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1183, in _add_ecp_cut
+    for constr in gen:
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1179, in <genexpr>
+    else abs(value(constr.body) - constr.upper)) +
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 709, in __call__
+    exception=exception):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in _apply_operation
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in <genexpr>
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 311, in _apply_operation
+    return self._operator(*tuple(values))
+ValueError: math domain error"
+syn20m03h,"  File ""exampleecp.py"", line 223, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 580, in _MindtPy_iteration_loop
+    self._add_ecp_cut()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1183, in _add_ecp_cut
+    for constr in gen:
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1179, in <genexpr>
+    else abs(value(constr.body) - constr.upper)) +
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 709, in __call__
+    exception=exception):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in _apply_operation
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in <genexpr>
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 311, in _apply_operation
+    return self._operator(*tuple(values))
+ValueError: math domain error"
+syn20m04h," File ""exampleecp.py"", line 225, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 580, in _MindtPy_iteration_loop
+    self._add_ecp_cut()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1183, in _add_ecp_cut
+    for constr in gen:
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1179, in <genexpr>
+    else abs(value(constr.body) - constr.upper)) +
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 709, in __call__
+    exception=exception):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in _apply_operation
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in <genexpr>
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 311, in _apply_operation
+    return self._operator(*tuple(values))
+ValueError: math domain error"
+syn30h,"  File ""exampleecp.py"", line 227, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 733, in _solve_ECP_master
+    for c in self.nonlinear_constraints):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 733, in <genexpr>
+    for c in self.nonlinear_constraints):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 709, in __call__
+    exception=exception):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in _apply_operation
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in <genexpr>
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 311, in _apply_operation
+    return self._operator(*tuple(values))
+ValueError: math domain error"
+syn30m02h,"Traceback (most recent call last):
+  File ""exampleecp.py"", line 229, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 733, in _solve_ECP_master
+    for c in self.nonlinear_constraints):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 733, in <genexpr>
+    for c in self.nonlinear_constraints):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 709, in __call__
+    exception=exception):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in _apply_operation
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in <genexpr>
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 311, in _apply_operation
+    return self._operator(*tuple(values))
+ValueError: math domain error"
+syn40m02h,"  File ""exampleecp.py"", line 231, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 580, in _MindtPy_iteration_loop
+    self._add_ecp_cut()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1183, in _add_ecp_cut
+    for constr in gen:
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1179, in <genexpr>
+    else abs(value(constr.body) - constr.upper)) +
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 709, in __call__
+    exception=exception):
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in _apply_operation
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 812, in <genexpr>
+    return sum(c*next(values) for c in self._coef) + self._const
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 217, in _evaluate_arglist
+    yield value(arg, exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/numvalue.py"", line 161, in value
+    tmp = numeric(exception=exception)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 208, in __call__
+    exception=exception))
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/kernel/expr_coopr3.py"", line 311, in _apply_operation
+    return self._operator(*tuple(values))
+ValueError: math domain error"
+unitcommit1,"WARNING: Loading a SolverResults object with a warning status into model=unknown;
+            message from solver=Model was proven to be unbounded.
+Traceback (most recent call last):
+  File ""exampleecp.py"", line 239, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 571, in _MindtPy_iteration_loop
+    self._solve_ECP_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 767, in _solve_ECP_master
+    master_terminate_cond, results.solver.message))
+ValueError: MindtPy unable to handle MILP master termination condition of unbounded. Solver message: Model was proven to be unbounded."

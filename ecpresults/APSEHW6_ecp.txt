@@ -1,0 +1,25 @@
+APSEHW6.py
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 0.5  LB: 0.5  UB: inf
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 0.5  LB: 0.5  UB: inf
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 1.0  LB: 1.0  UB: inf
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 2.02734375  LB: 2.02734375  UB: inf
+
+
+MILP 5: Solve master problem.
+ECP has found a feasible solution within a 0.0001 tolerance
+MILP 5: OBJ: 3.5  LB: 3.5  UB: 3.5
+MindtPy exiting on bound convergence. LB: 3.5 + (tol 1e-05) >= UB: 3.5
+
+Time elapsed: 0.678955078125

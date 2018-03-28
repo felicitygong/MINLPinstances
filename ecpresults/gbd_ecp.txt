@@ -1,0 +1,9 @@
+gbd.py
+
+
+MILP 1: Solve master problem.
+ECP has found a feasible solution within a 0.0001 tolerance
+MILP 1: OBJ: 2.2  LB: 2.2  UB: 2.2
+MindtPy exiting on bound convergence. LB: 2.2 + (tol 1e-05) >= UB: 2.2
+
+Time elapsed: 0.152437925339

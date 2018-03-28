@@ -1,0 +1,93 @@
+batch0812.py
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 435883.92132  LB: 435883.92132  UB: inf
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 1011505.47737  LB: 1011505.47737  UB: inf
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 1404587.12553  LB: 1404587.12553  UB: inf
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 2056298.13778  LB: 2056298.13778  UB: inf
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: 2513305.1477  LB: 2513305.1477  UB: inf
+
+
+MILP 6: Solve master problem.
+MILP 6: OBJ: 2638021.5346  LB: 2638021.5346  UB: inf
+
+
+MILP 7: Solve master problem.
+MILP 7: OBJ: 2659049.3592  LB: 2659049.3592  UB: inf
+
+
+MILP 8: Solve master problem.
+MILP 8: OBJ: 2677396.05154  LB: 2677396.05154  UB: inf
+
+
+MILP 9: Solve master problem.
+MILP 9: OBJ: 2683402.70221  LB: 2683402.70221  UB: inf
+
+
+MILP 10: Solve master problem.
+MILP 10: OBJ: 2685497.80327  LB: 2685497.80327  UB: inf
+
+
+MILP 11: Solve master problem.
+MILP 11: OBJ: 2686704.07259  LB: 2686704.07259  UB: inf
+
+
+MILP 12: Solve master problem.
+MILP 12: OBJ: 2686924.34373  LB: 2686924.34373  UB: inf
+
+
+MILP 13: Solve master problem.
+MILP 13: OBJ: 2687020.4457  LB: 2687020.4457  UB: inf
+
+
+MILP 14: Solve master problem.
+MILP 14: OBJ: 2687023.83839  LB: 2687023.83839  UB: inf
+
+
+MILP 15: Solve master problem.
+MILP 15: OBJ: 2687025.53087  LB: 2687025.53087  UB: inf
+
+
+MILP 16: Solve master problem.
+MILP 16: OBJ: 2687026.3787  LB: 2687026.3787  UB: inf
+
+
+MILP 17: Solve master problem.
+MILP 17: OBJ: 2687026.76634  LB: 2687026.76634  UB: inf
+
+
+MILP 18: Solve master problem.
+MILP 18: OBJ: 2687026.77573  LB: 2687026.77573  UB: inf
+
+
+MILP 19: Solve master problem.
+MILP 19: OBJ: 2687026.78042  LB: 2687026.78042  UB: inf
+
+
+MILP 20: Solve master problem.
+MILP 20: OBJ: 2687026.78277  LB: 2687026.78277  UB: inf
+
+
+MILP 21: Solve master problem.
+MILP 21: OBJ: 2687026.78278  LB: 2687026.78278  UB: inf
+
+
+MILP 22: Solve master problem.
+ECP has found a feasible solution within a 0.0001 tolerance
+MILP 22: OBJ: 2687026.78279  LB: 2687026.78279  UB: 2687026.78279
+MindtPy exiting on bound convergence. LB: 2687026.78279 + (tol 1e-05) >= UB: 2687026.78279
+
+Time elapsed: 4.19057512283

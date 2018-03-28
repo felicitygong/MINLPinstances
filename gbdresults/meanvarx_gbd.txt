@@ -1,0 +1,34 @@
+meanvarx.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 21.3625984097  LB: -inf  UB: 21.3625984097
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 10.1910954206  LB: 10.1910954206  UB: 21.3625984097
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 14.3692309514  LB: 10.1910954206  UB: 14.3692309514
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 14.187838166  LB: 14.187838166  UB: 14.3692309514
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 16.7381008098  LB: 14.187838166  UB: 14.3692309514
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 14.18783816  LB: 14.187838166  UB: 14.3692309514
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 15.3491336804  LB: 14.187838166  UB: 14.3692309514
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 14.1878381393  LB: 14.187838166  UB: 14.3692309514
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 14.4040611371  LB: 14.187838166  UB: 14.3692309514
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: 14.3692325972  LB: 14.3692325972  UB: 14.3692309514
+MindtPy exiting on bound convergence. LB: 14.3692325972 + (tol 1e-05) >= UB: 14.3692309514
+
+Time elapsed: 0.964326143265

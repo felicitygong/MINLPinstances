@@ -1,0 +1,24 @@
+batchs121208m.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 1201756.2098  LB: 1201756.2098  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 4270136.39577  LB: 1201756.2098  UB: 4270136.39577
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 1201756.20981  LB: 1201756.20981  UB: 4270136.39577
+NLP 3: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding PSC feasibility cut.
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 15864980539.5  LB: 15864980539.5  UB: 4270136.39577
+MindtPy exiting on bound convergence. LB: 15864980539.5 + (tol 1e-05) >= UB: 4270136.39577
+
+Time elapsed: 9.06219100952

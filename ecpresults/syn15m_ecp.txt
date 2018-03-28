@@ -1,0 +1,33 @@
+syn15m.py
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 970.088876933  LB: -inf  UB: 970.088876933
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 887.140007605  LB: -inf  UB: 887.140007605
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 861.536567205  LB: -inf  UB: 861.536567205
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 854.825611497  LB: -inf  UB: 854.825611497
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: 853.829511737  LB: -inf  UB: 853.829511737
+
+
+MILP 6: Solve master problem.
+MILP 6: OBJ: 853.357738425  LB: -inf  UB: 853.357738425
+
+
+MILP 7: Solve master problem.
+ECP has found a feasible solution within a 0.0001 tolerance
+MILP 7: OBJ: 853.314649272  LB: 853.314649272  UB: 853.314649272
+MindtPy exiting on bound convergence. LB: 853.314649272 + (tol 1e-05) >= UB: 853.314649272
+
+Time elapsed: 1.14689898491

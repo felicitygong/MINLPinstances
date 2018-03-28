@@ -1,0 +1,66 @@
+synthes2.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 1: Solve master problem.
+MILP master problem is unbounded. 
+MILP 1.1: maximize value of binaries
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 73.035308865  LB: -inf  UB: 73.035308865
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: -317.221925848  LB: -317.221925848  UB: 73.035308865
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 133.389053514  LB: -317.221925848  UB: 73.035308865
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: -307.221925848  LB: -307.221925848  UB: 73.035308865
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 95.2113920871  LB: -307.221925848  UB: 73.035308865
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: -188.610659981  LB: -188.610659981  UB: 73.035308865
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 89.3890524182  LB: -188.610659981  UB: 73.035308865
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: -133.218279481  LB: -133.218279481  UB: 73.035308865
+NLP 6: Solve subproblem for fixed binaries.
+NLP 6: OBJ: 82.1298784966  LB: -133.218279481  UB: 73.035308865
+
+
+MILP 6: Solve master problem.
+MILP 6: OBJ: 57.0353125251  LB: 57.0353125251  UB: 73.035308865
+NLP 7: Solve subproblem for fixed binaries.
+NLP 7: OBJ: 124.294483827  LB: 57.0353125251  UB: 73.035308865
+
+
+MILP 7: Solve master problem.
+MILP 7: OBJ: 62.1909970716  LB: 62.1909970716  UB: 73.035308865
+NLP 8: Solve subproblem for fixed binaries.
+NLP 8: OBJ: 110.294483567  LB: 62.1909970716  UB: 73.035308865
+
+
+MILP 8: Solve master problem.
+MILP 8: OBJ: 63.0353125251  LB: 63.0353125251  UB: 73.035308865
+NLP 9: Solve subproblem for fixed binaries.
+NLP 9: OBJ: 74.2944828444  LB: 63.0353125251  UB: 73.035308865
+
+
+MILP 9: Solve master problem.
+MILP 9: OBJ: 67.0353125251  LB: 67.0353125251  UB: 73.035308865
+NLP 10: Solve subproblem for fixed binaries.
+NLP 10: OBJ: 86.1168224093  LB: 67.0353125251  UB: 73.035308865
+
+
+MILP 10: Solve master problem.
+MILP 10: OBJ: 73.0353125251  LB: 73.0353125251  UB: 73.035308865
+MindtPy exiting on bound convergence. LB: 73.0353125251 + (tol 1e-05) >= UB: 73.035308865
+
+Time elapsed: 2.04048204422

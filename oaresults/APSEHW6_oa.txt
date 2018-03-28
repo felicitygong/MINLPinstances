@@ -1,0 +1,16 @@
+APSEHW6.py
+NLP 1: Solve relaxed integrality.
+NLP 1: OBJ: 2.53234594365  LB: 2.53234594365  UB: inf
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 3.39563376031  LB: 3.39563376031  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 3.49999997467  LB: 3.39563376031  UB: 3.49999997467
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 3.5  LB: 3.5  UB: 3.49999997467
+MindtPy exiting on bound convergence. LB: 3.5 + (tol 1e-05) >= UB: 3.49999997467
+
+Time elapsed: <type 'datetime.date'>

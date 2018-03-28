@@ -1,0 +1,30 @@
+alan.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 1: Solve master problem.
+MILP master problem is unbounded. 
+MILP 1.1: maximize value of binaries
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 2.98214283416  LB: -inf  UB: 2.98214283416
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 1.17338114106  LB: 1.17338114106  UB: 2.98214283416
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 2.9249999878  LB: 1.17338114106  UB: 2.9249999878
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 2.17653201621  LB: 2.17653201621  UB: 2.9249999878
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 3.12352939041  LB: 2.17653201621  UB: 2.9249999878
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 2.92499999594  LB: 2.92499999594  UB: 2.9249999878
+MindtPy exiting on bound convergence. LB: 2.92499999594 + (tol 1e-05) >= UB: 2.9249999878
+
+Time elapsed: 0.930655956268

@@ -1,0 +1,39 @@
+fac1.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 1: Solve master problem.
+MILP master problem is unbounded. 
+MILP 1.1: maximize value of binaries
+NLP 2: Solve subproblem for fixed binaries.
+NLP subproblem failed to converge within iteration limit.
+
+
+MILP 2: Solve master problem.
+MILP master problem is unbounded. 
+MILP 2.1: maximize value of binaries
+NLP 3: Solve subproblem for fixed binaries.
+NLP subproblem failed to converge within iteration limit.
+
+
+MILP 3: Solve master problem.
+MILP master problem is unbounded. 
+MILP 3.1: maximize value of binaries
+NLP 4: Solve subproblem for fixed binaries.
+NLP subproblem failed to converge within iteration limit.
+
+
+MILP 4: Solve master problem.
+MILP master problem is unbounded. 
+MILP 4.1: maximize value of binaries
+NLP 5: Solve subproblem for fixed binaries.
+NLP subproblem failed to converge within iteration limit.
+
+
+MILP 5: Solve master problem.
+MILP master problem is infeasible. Problem may have no more feasible binary configurations.
+MindtPy exiting on bound convergence. LB: inf + (tol 1e-05) >= UB: inf
+
+Time elapsed: 10.5464360714

@@ -1,0 +1,22 @@
+ex4.py
+NLP 1: Solve relaxed integrality.
+NLP 1: OBJ: -16.4198342051  LB: -16.4198342051  UB: inf
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: -10.0513372356  LB: -10.0513372356  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 22693.3904992  LB: -10.0513372356  UB: 22693.3904992
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: -8.21080613372  LB: -8.21080613372  UB: 22693.3904992
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: -8.06419636598  LB: -8.21080613372  UB: -8.06419636598
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: -8.06413616451  LB: -8.06413616451  UB: -8.06419636598
+MindtPy exiting on bound convergence. LB: -8.06413616451 + (tol 1e-05) >= UB: -8.06419636598
+
+Time elapsed: <type 'datetime.date'>

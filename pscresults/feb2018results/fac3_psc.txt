@@ -1,0 +1,10 @@
+fac3.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: -4.34081406447e-05  LB: -inf  UB: -4.34081406447e-05
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 2132258.914  LB: 2132258.914  UB: -4.34081406447e-05
+MindtPy exiting on bound convergence. LB: 2132258.914 + (tol 1e-05) >= UB: -4.34081406447e-05
+
+Time elapsed: 0.154805183411

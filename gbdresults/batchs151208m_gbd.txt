@@ -1,0 +1,19 @@
+batchs151208m.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 1: Solve master problem.
+MILP master problem is unbounded. 
+MILP 1.1: maximize value of binaries
+NLP 2: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 2: Solve master problem.
+MILP master problem is infeasible. Problem may have no more feasible binary configurations.
+MindtPy exiting on bound convergence. LB: inf + (tol 1e-05) >= UB: inf
+
+Time elapsed: 4.70991683006

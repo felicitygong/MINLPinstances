@@ -1,0 +1,1600 @@
+instance,error
+ex1223b,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 38, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[1]' has a body with nonlinear terms."
+ibs2,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 64, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[1]' has a body with nonlinear terms."
+netmod_dol1,took over 2 days
+netmod_dol2,took over 2 days
+portfol_buyin,"ERROR: Solver (ipopt) returned non-zero return code (1)
+ERROR: Solver log:
+        Ipopt 3.12.8:
+
+        ******************************************************************************
+        This program contains Ipopt, a library for large-scale nonlinear optimization.
+         Ipopt is released as open source code under the Eclipse Public License (EPL).
+                 For more information visit http://projects.coin-or.org/Ipopt
+        ******************************************************************************
+
+        This is Ipopt version 3.12.8, running with linear solver ma27.
+
+        Number of nonzeros in equality constraint Jacobian...:        8
+        Number of nonzeros in inequality constraint Jacobian.:       35
+        Number of nonzeros in Lagrangian Hessian.............:       36
+
+        Error evaluating constraint 1: can't evaluate sqrt'(0).
+Traceback (most recent call last):
+  File ""examplegbd.py"", line 94, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 301, in solve
+    self._MindtPy_initialize_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 434, in _MindtPy_initialize_master
+    self._solve_NLP_subproblem()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 948, in _solve_NLP_subproblem
+    options=self.nlp_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 626, in solve
+    ""Solver (%s) did not exit normally"" % self.name)
+pyutilib.common._exceptions.ApplicationError: Solver (ipopt) did not exit normally"
+portfol_card,"ERROR: Solver (ipopt) returned non-zero return code (1)
+ERROR: Solver log:
+        Ipopt 3.12.8: 
+
+        ******************************************************************************
+        This program contains Ipopt, a library for large-scale nonlinear optimization.
+         Ipopt is released as open source code under the Eclipse Public License (EPL).
+                 For more information visit http://projects.coin-or.org/Ipopt
+        ******************************************************************************
+
+        This is Ipopt version 3.12.8, running with linear solver ma27.
+
+        Number of nonzeros in equality constraint Jacobian...:        8
+        Number of nonzeros in inequality constraint Jacobian.:       35
+        Number of nonzeros in Lagrangian Hessian.............:       36
+
+        Error evaluating constraint 1: can't evaluate sqrt'(0).
+Traceback (most recent call last):
+  File ""examplegbd.py"", line 99, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 301, in solve
+    self._MindtPy_initialize_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 434, in _MindtPy_initialize_master
+    self._solve_NLP_subproblem()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 948, in _solve_NLP_subproblem
+    options=self.nlp_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 626, in solve
+    ""Solver (%s) did not exit normally"" % self.name)
+pyutilib.common._exceptions.ApplicationError: Solver (ipopt) did not exit normally"
+rsyn0805h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 100, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0805m02h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 106, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0805m03h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 108, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0805m04h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 110, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0810h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 112, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0810m02h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 114, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0810m03h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 116, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0810m04h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 118, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0815h,"  File ""examplegbd.py"", line 120, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0815m02h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 122, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0815m03h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 124, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0815m04h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 126, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0820h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 128, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0820m02h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 130, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0820m03h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 132, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0820m04h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 134, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0830h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 136, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0830m02h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 138, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem   
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP  
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0830m03h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 140, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0830m04h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 142, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0840h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 144, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0840m02h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 146, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0840m03h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 148, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+rsyn0840m04h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 150, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+sssd15-04,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 152, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 301, in solve
+    self._MindtPy_initialize_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 434, in _MindtPy_initialize_master
+    self._solve_NLP_subproblem()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1036, in _solve_NLP_subproblem
+    'condition of {}'.format(subprob_terminate_cond))
+ValueError: MindtPy unable to handle NLP subproblem termination condition of other"
+sssd20-04,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 184, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 301, in solve
+    self._MindtPy_initialize_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 434, in _MindtPy_initialize_master
+    self._solve_NLP_subproblem()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1036, in _solve_NLP_subproblem
+    'condition of {}'.format(subprob_terminate_cond))
+ValueError: MindtPy unable to handle NLP subproblem termination condition of other"
+sssd25-04,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 190, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 301, in solve
+    self._MindtPy_initialize_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 434, in _MindtPy_initialize_master
+    self._solve_NLP_subproblem()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1036, in _solve_NLP_subproblem
+    'condition of {}'.format(subprob_terminate_cond))
+ValueError: MindtPy unable to handle NLP subproblem termination condition of other"
+stockcycle,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 193, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 301, in solve
+    self._MindtPy_initialize_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 434, in _MindtPy_initialize_master
+    self._solve_NLP_subproblem()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 1036, in _solve_NLP_subproblem
+    'condition of {}'.format(subprob_terminate_cond))
+ValueError: MindtPy unable to handle NLP subproblem termination condition of other"
+syn05h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 196, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn05m02h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 197, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn05m03h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 199, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn05m04h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 201, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn10h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 203, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn10m02h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 205, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn10m03h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 207, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn10m04h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 209, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn15h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 211, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn15m02h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 213, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn15m03h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 215, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn15m04h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 217, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn20h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 219, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn20m02h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 221, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn20m03h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 223, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn20m04h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 225, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn30h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 227, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn30m02h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 229, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn30m03h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 231, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn30m04h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 233, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn40h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 235, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem   
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP  
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn40m02h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 237, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn40m03h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 239, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."
+syn40m04h,"Traceback (most recent call last):
+  File ""examplegbd.py"", line 241, in <module>
+    SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 304, in solve
+    self._MindtPy_iteration_loop()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 569, in _MindtPy_iteration_loop
+    self._solve_GBD_master()
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/contrib/mindtpy/MindtPy.py"", line 851, in _solve_GBD_master
+    options=self.mip_solver_kwargs)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 599, in solve
+    self._presolve(*args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/solvers/GUROBI.py"", line 224, in _presolve
+    ILMLicensedSystemCallSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/solver/shellcmd.py"", line 196, in _presolve
+    OptSolver._presolve(self, *args, **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 696, in _presolve
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/solvers.py"", line 767, in _convert_problem
+    **kwds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/opt/base/convert.py"", line 110, in convert_problem
+    problem_files, symbol_map = converter.apply(*tmp, **tmpkw)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/solvers/plugins/converter/model.py"", line 96, in apply
+    io_options=io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/core/base/block.py"", line 1681, in write
+    io_options)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 176, in __call__
+    include_all_variable_bounds=include_all_variable_bounds)
+  File ""/home/felicitg/Pyomo/pyomo/pyomo/repn/plugins/cpxlp.py"", line 719, in _print_model_LP
+    ""with nonlinear terms."" % (constraint_data.name))
+ValueError: Cannot write legal LP file.  Constraint 'MindtPy_linear_cuts.gbd_cuts[2]' has a body with nonlinear terms."

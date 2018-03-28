@@ -1,0 +1,39 @@
+netmod_kar1.py
+NLP 1: Solve relaxed integrality.
+NLP 1: OBJ: -0.749997945553  LB: -0.749997945553  UB: inf
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: -0.750000105296  LB: -0.749997945553  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 1.39285388623e-06  LB: -0.749997945553  UB: 1.39285388623e-06
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: -0.749999895504  LB: -0.749997945553  UB: 1.39285388623e-06
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 1.66633737186e-06  LB: -0.749997945553  UB: 1.39285388623e-06
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: -0.749999894333  LB: -0.749997945553  UB: 1.39285388623e-06
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 1.6858719144e-06  LB: -0.749997945553  UB: 1.39285388623e-06
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: -0.750000104867  LB: -0.749997945553  UB: 1.39285388623e-06
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 1.35378482158e-06  LB: -0.749997945553  UB: 1.35378482158e-06
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: -0.621794976877  LB: -0.621794976877  UB: 1.35378482158e-06
+NLP 6: Solve subproblem for fixed binaries.
+NLP 6: OBJ: -0.371794668951  LB: -0.621794976877  UB: -0.371794668951
+
+
+MindtPy unable to converge bounds after 5 master iterations.
+Final bound values: LB: -0.621794976877  UB: -0.371794668951
+
+Time elapsed: <type 'datetime.date'>

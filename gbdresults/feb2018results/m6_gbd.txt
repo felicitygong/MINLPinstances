@@ -1,0 +1,139 @@
+m6.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 67.29048  LB: 67.29048  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 67.29048  LB: 67.29048  UB: inf
+NLP 3: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 67.29048  LB: 67.29048  UB: inf
+NLP 4: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 67.29048  LB: 67.29048  UB: inf
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 140.072206649  LB: 67.29048  UB: 140.072206649
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: 67.29048  LB: 67.29048  UB: 140.072206649
+NLP 6: Solve subproblem for fixed binaries.
+NLP 6: OBJ: 143.178653156  LB: 67.29048  UB: 140.072206649
+
+
+MILP 6: Solve master problem.
+MILP 6: OBJ: 67.29048  LB: 67.29048  UB: 140.072206649
+NLP 7: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 7: Solve master problem.
+MILP 7: OBJ: 67.29048  LB: 67.29048  UB: 140.072206649
+NLP 8: Solve subproblem for fixed binaries.
+NLP 8: OBJ: 137.089278426  LB: 67.29048  UB: 137.089278426
+
+
+MILP 8: Solve master problem.
+MILP 8: OBJ: 67.29048  LB: 67.29048  UB: 137.089278426
+NLP 9: Solve subproblem for fixed binaries.
+NLP 9: OBJ: 172.060707107  LB: 67.29048  UB: 137.089278426
+
+
+MILP 9: Solve master problem.
+MILP 9: OBJ: 67.29048  LB: 67.29048  UB: 137.089278426
+NLP 10: Solve subproblem for fixed binaries.
+NLP 10: OBJ: 143.178653156  LB: 67.29048  UB: 137.089278426
+
+
+MILP 10: Solve master problem.
+MILP 10: OBJ: 67.29048  LB: 67.29048  UB: 137.089278426
+NLP 11: Solve subproblem for fixed binaries.
+NLP 11: OBJ: 122.392589905  LB: 67.29048  UB: 122.392589905
+
+
+MILP 11: Solve master problem.
+MILP 11: OBJ: 67.29048  LB: 67.29048  UB: 122.392589905
+NLP 12: Solve subproblem for fixed binaries.
+NLP 12: OBJ: 172.060707107  LB: 67.29048  UB: 122.392589905
+
+
+MILP 12: Solve master problem.
+MILP 12: OBJ: 67.29048  LB: 67.29048  UB: 122.392589905
+NLP 13: Solve subproblem for fixed binaries.
+NLP 13: OBJ: 137.08927842  LB: 67.29048  UB: 122.392589905
+
+
+MILP 13: Solve master problem.
+MILP 13: OBJ: 67.29048  LB: 67.29048  UB: 122.392589905
+NLP 14: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 14: Solve master problem.
+MILP 14: OBJ: 67.29048  LB: 67.29048  UB: 122.392589905
+NLP 15: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 15: Solve master problem.
+MILP 15: OBJ: 67.29048  LB: 67.29048  UB: 122.392589905
+NLP 16: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 16: Solve master problem.
+MILP 16: OBJ: 67.29048  LB: 67.29048  UB: 122.392589905
+NLP 17: Solve subproblem for fixed binaries.
+NLP 17: OBJ: 132.399995452  LB: 67.29048  UB: 122.392589905
+
+
+MILP 17: Solve master problem.
+MILP 17: OBJ: 67.29048  LB: 67.29048  UB: 122.392589905
+NLP 18: Solve subproblem for fixed binaries.
+NLP 18: OBJ: 143.178653159  LB: 67.29048  UB: 122.392589905
+
+
+MILP 18: Solve master problem.
+MILP 18: OBJ: 67.29048  LB: 67.29048  UB: 122.392589905
+NLP 19: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 19: Solve master problem.
+MILP 19: OBJ: 67.29048  LB: 67.29048  UB: 122.392589905
+NLP 20: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 20: Solve master problem.
+MILP 20: OBJ: 67.29048  LB: 67.29048  UB: 122.392589905
+NLP 21: Solve subproblem for fixed binaries.
+NLP 21: OBJ: 143.178653156  LB: 67.29048  UB: 122.392589905
+
+
+MindtPy unable to converge bounds after 20 master iterations.
+Final bound values: LB: 67.29048  UB: 122.392589905
+
+Time elapsed: 9.0209209919

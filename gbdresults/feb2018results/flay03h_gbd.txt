@@ -1,0 +1,16 @@
+flay03h.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 119.478829802  LB: 119.478829802  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 48.9897945675  LB: 119.478829802  UB: 48.9897945675
+
+
+MindtPy exiting on bound convergence. LB: 119.478829802 + (tol 1e-05) >= UB: 48.9897945675
+
+
+Time elapsed: 1.28146100044

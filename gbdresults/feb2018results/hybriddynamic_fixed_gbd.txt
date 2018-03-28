@@ -1,0 +1,18 @@
+hybriddynamic_fixed.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 1: Solve master problem.
+MILP master problem is unbounded. 
+MILP 1.1: maximize value of binaries
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 1.47377777028  LB: -inf  UB: 1.47377777028
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 1.47377777277  LB: 1.47377777277  UB: 1.47377777028
+MindtPy exiting on bound convergence. LB: 1.47377777277 + (tol 1e-05) >= UB: 1.47377777028
+
+Time elapsed: 0.884254932404

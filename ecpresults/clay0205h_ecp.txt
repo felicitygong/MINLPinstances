@@ -1,0 +1,69 @@
+clay0205h.py
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 8085.0  LB: 8085.0  UB: inf
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 8085.0  LB: 8085.0  UB: inf
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 8085.0  LB: 8085.0  UB: inf
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 8085.0  LB: 8085.0  UB: inf
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: 8085.0  LB: 8085.0  UB: inf
+
+
+MILP 6: Solve master problem.
+MILP 6: OBJ: 8085.0  LB: 8085.0  UB: inf
+
+
+MILP 7: Solve master problem.
+MILP 7: OBJ: 8092.5  LB: 8092.5  UB: inf
+
+
+MILP 8: Solve master problem.
+MILP 8: OBJ: 8092.5  LB: 8092.5  UB: inf
+
+
+MILP 9: Solve master problem.
+MILP 9: OBJ: 8092.5  LB: 8092.5  UB: inf
+
+
+MILP 10: Solve master problem.
+MILP 10: OBJ: 8092.5  LB: 8092.5  UB: inf
+
+
+MILP 11: Solve master problem.
+MILP 11: OBJ: 8092.5  LB: 8092.5  UB: inf
+
+
+MILP 12: Solve master problem.
+MILP 12: OBJ: 8092.5  LB: 8092.5  UB: inf
+
+
+MILP 13: Solve master problem.
+MILP 13: OBJ: 8092.5  LB: 8092.5  UB: inf
+
+
+MILP 14: Solve master problem.
+MILP 14: OBJ: 8092.5  LB: 8092.5  UB: inf
+
+
+MILP 15: Solve master problem.
+MILP 15: OBJ: 8092.5  LB: 8092.5  UB: inf
+
+
+MILP 16: Solve master problem.
+ECP has found a feasible solution within a 0.0001 tolerance
+MILP 16: OBJ: 8092.5  LB: 8092.5  UB: 8092.5
+MindtPy exiting on bound convergence. LB: 8092.5 + (tol 1e-05) >= UB: 8092.5
+
+Time elapsed: 19.9407169819

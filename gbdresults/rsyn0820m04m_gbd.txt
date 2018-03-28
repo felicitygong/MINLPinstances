@@ -1,0 +1,190 @@
+rsyn0820m04m.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 10310.8313312  LB: -inf  UB: 10310.8313312
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 2351.99364717  LB: 2351.99364717  UB: 10310.8313312
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 10300.2652701  LB: 2351.99364717  UB: 10300.2652701
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 2380.94863415  LB: 2380.94863415  UB: 10300.2652701
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 10294.965986  LB: 2380.94863415  UB: 10294.965986
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 2380.06763586  LB: 2380.94863415  UB: 10294.965986
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 10281.9043449  LB: 2380.94863415  UB: 10281.9043449
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 2346.79687004  LB: 2380.94863415  UB: 10281.9043449
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: 10280.8313312  LB: 2380.94863415  UB: 10280.8313312
+NLP 6: Solve subproblem for fixed binaries.
+NLP 6: OBJ: 2321.99365422  LB: 2380.94863415  UB: 10280.8313312
+
+
+MILP 6: Solve master problem.
+MILP 6: OBJ: 10280.8313312  LB: 2380.94863415  UB: 10280.8313312
+NLP 7: Solve subproblem for fixed binaries.
+NLP 7: OBJ: 2321.99365422  LB: 2380.94863415  UB: 10280.8313312
+
+
+MILP 7: Solve master problem.
+MILP 7: OBJ: 10280.6328018  LB: 2380.94863415  UB: 10280.6328018
+NLP 8: Solve subproblem for fixed binaries.
+NLP 8: OBJ: 2355.67213645  LB: 2380.94863415  UB: 10280.6328018
+
+
+MILP 8: Solve master problem.
+MILP 8: OBJ: 10280.6328018  LB: 2380.94863415  UB: 10280.6328018
+NLP 9: Solve subproblem for fixed binaries.
+NLP 9: OBJ: 2355.67213645  LB: 2380.94863415  UB: 10280.6328018
+
+
+MILP 9: Solve master problem.
+MILP 9: OBJ: 10280.3036001  LB: 2380.94863415  UB: 10280.3036001
+NLP 10: Solve subproblem for fixed binaries.
+NLP 10: OBJ: 2340.80196636  LB: 2380.94863415  UB: 10280.3036001
+
+
+MILP 10: Solve master problem.
+MILP 10: OBJ: 10278.2527089  LB: 2380.94863415  UB: 10278.2527089
+NLP 11: Solve subproblem for fixed binaries.
+NLP 11: OBJ: 2337.90256208  LB: 2380.94863415  UB: 10278.2527089
+
+
+MILP 11: Solve master problem.
+MILP 11: OBJ: 10277.1645154  LB: 2380.94863415  UB: 10277.1645154
+NLP 12: Solve subproblem for fixed binaries.
+NLP 12: OBJ: 2328.56018031  LB: 2380.94863415  UB: 10277.1645154
+
+
+MILP 12: Solve master problem.
+MILP 12: OBJ: 10274.9212472  LB: 2380.94863415  UB: 10274.9212472
+NLP 13: Solve subproblem for fixed binaries.
+NLP 13: OBJ: 2343.16081324  LB: 2380.94863415  UB: 10274.9212472
+
+
+MILP 13: Solve master problem.
+MILP 13: OBJ: 10272.6791795  LB: 2380.94863415  UB: 10272.6791795
+NLP 14: Solve subproblem for fixed binaries.
+NLP 14: OBJ: 2353.10412912  LB: 2380.94863415  UB: 10272.6791795
+
+
+MILP 14: Solve master problem.
+MILP 14: OBJ: 10267.6655849  LB: 2380.94863415  UB: 10267.6655849
+NLP 15: Solve subproblem for fixed binaries.
+NLP 15: OBJ: 2301.69001034  LB: 2380.94863415  UB: 10267.6655849
+
+
+MILP 15: Solve master problem.
+MILP 15: OBJ: 10265.1645154  LB: 2380.94863415  UB: 10265.1645154
+NLP 16: Solve subproblem for fixed binaries.
+NLP 16: OBJ: 2316.56018043  LB: 2380.94863415  UB: 10265.1645154
+
+
+MILP 16: Solve master problem.
+MILP 16: OBJ: 10261.1418046  LB: 2380.94863415  UB: 10261.1418046
+NLP 17: Solve subproblem for fixed binaries.
+NLP 17: OBJ: 2354.71676835  LB: 2380.94863415  UB: 10261.1418046
+
+
+MILP 17: Solve master problem.
+MILP 17: OBJ: 10260.6467059  LB: 2380.94863415  UB: 10260.6467059
+NLP 18: Solve subproblem for fixed binaries.
+NLP 18: OBJ: 2256.66382704  LB: 2380.94863415  UB: 10260.6467059
+
+
+MILP 18: Solve master problem.
+MILP 18: OBJ: 10258.1094433  LB: 2380.94863415  UB: 10258.1094433
+NLP 19: Solve subproblem for fixed binaries.
+NLP 19: OBJ: 2256.94031228  LB: 2380.94863415  UB: 10258.1094433
+
+
+MILP 19: Solve master problem.
+MILP 19: OBJ: 10257.2793449  LB: 2380.94863415  UB: 10257.2793449
+NLP 20: Solve subproblem for fixed binaries.
+NLP 20: OBJ: 2334.96617773  LB: 2380.94863415  UB: 10257.2793449
+
+
+MILP 20: Solve master problem.
+MILP 20: OBJ: 10257.2096796  LB: 2380.94863415  UB: 10257.2096796
+NLP 21: Solve subproblem for fixed binaries.
+NLP 21: OBJ: 2295.3611912  LB: 2380.94863415  UB: 10257.2096796
+
+
+MILP 21: Solve master problem.
+MILP 21: OBJ: 10256.0838728  LB: 2380.94863415  UB: 10256.0838728
+NLP 22: Solve subproblem for fixed binaries.
+NLP 22: OBJ: 2309.43956404  LB: 2380.94863415  UB: 10256.0838728
+
+
+MILP 22: Solve master problem.
+MILP 22: OBJ: 10255.5021295  LB: 2380.94863415  UB: 10255.5021295
+NLP 23: Solve subproblem for fixed binaries.
+NLP 23: OBJ: 2282.12347088  LB: 2380.94863415  UB: 10255.5021295
+
+
+MILP 23: Solve master problem.
+MILP 23: OBJ: 10253.2527089  LB: 2380.94863415  UB: 10253.2527089
+NLP 24: Solve subproblem for fixed binaries.
+NLP 24: OBJ: 2312.90256233  LB: 2380.94863415  UB: 10253.2527089
+
+
+MILP 24: Solve master problem.
+MILP 24: OBJ: 10253.0541795  LB: 2380.94863415  UB: 10253.0541795
+NLP 25: Solve subproblem for fixed binaries.
+NLP 25: OBJ: 2346.10239754  LB: 2380.94863415  UB: 10253.0541795
+
+
+MILP 25: Solve master problem.
+MILP 25: OBJ: 10252.9648691  LB: 2380.94863415  UB: 10252.9648691
+NLP 26: Solve subproblem for fixed binaries.
+NLP 26: OBJ: 2282.39996287  LB: 2380.94863415  UB: 10252.9648691
+
+
+MILP 26: Solve master problem.
+MILP 26: OBJ: 10252.2793449  LB: 2380.94863415  UB: 10252.2793449
+NLP 27: Solve subproblem for fixed binaries.
+NLP 27: OBJ: 2329.96617778  LB: 2380.94863415  UB: 10252.2793449
+
+
+MILP 27: Solve master problem.
+MILP 27: OBJ: 10250.8313312  LB: 2380.94863415  UB: 10250.8313312
+NLP 28: Solve subproblem for fixed binaries.
+NLP 28: OBJ: 2291.99365452  LB: 2380.94863415  UB: 10250.8313312
+
+
+MILP 28: Solve master problem.
+MILP 28: OBJ: 10250.6328018  LB: 2380.94863415  UB: 10250.6328018
+NLP 29: Solve subproblem for fixed binaries.
+NLP 29: OBJ: 2325.67213675  LB: 2380.94863415  UB: 10250.6328018
+
+
+MILP 29: Solve master problem.
+MILP 29: OBJ: 10249.1277298  LB: 2380.94863415  UB: 10249.1277298
+NLP 30: Solve subproblem for fixed binaries.
+NLP 30: OBJ: 2345.67430871  LB: 2380.94863415  UB: 10249.1277298
+
+
+MILP 30: Solve master problem.
+MILP 30: OBJ: 10248.0541795  LB: 2380.94863415  UB: 10248.0541795
+NLP 31: Solve subproblem for fixed binaries.
+NLP 31: OBJ: 2341.10239759  LB: 2380.94863415  UB: 10248.0541795
+
+
+MindtPy unable to converge bounds after 30 master iterations.
+Final bound values: LB: 2380.94863415  UB: 10248.0541795
+
+Time elapsed: 83.1327111721

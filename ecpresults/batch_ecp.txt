@@ -1,0 +1,41 @@
+batch.py
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 95103.1595954  LB: 95103.1595954  UB: inf
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 187472.370287  LB: 187472.370287  UB: inf
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 233610.95253  LB: 233610.95253  UB: inf
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 258520.506485  LB: 258520.506485  UB: inf
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: 265367.298696  LB: 265367.298696  UB: inf
+
+
+MILP 6: Solve master problem.
+MILP 6: OBJ: 279589.505293  LB: 279589.505293  UB: inf
+
+
+MILP 7: Solve master problem.
+MILP 7: OBJ: 285462.518414  LB: 285462.518414  UB: inf
+
+
+MILP 8: Solve master problem.
+MILP 8: OBJ: 285506.501368  LB: 285506.501368  UB: inf
+
+
+MILP 9: Solve master problem.
+ECP has found a feasible solution within a 0.0001 tolerance
+MILP 9: OBJ: 285506.508244  LB: 285506.508244  UB: 285506.508244
+MindtPy exiting on bound convergence. LB: 285506.508244 + (tol 1e-05) >= UB: 285506.508244
+
+Time elapsed: 1.2151389122

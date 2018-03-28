@@ -1,0 +1,49 @@
+rsyn0815m02m.py
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 3403.34193957  LB: -inf  UB: 3403.34193957
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 2654.91555443  LB: -inf  UB: 2654.91555443
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 2495.22376542  LB: -inf  UB: 2495.22376542
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 2041.88317346  LB: -inf  UB: 2041.88317346
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: 1859.40078359  LB: -inf  UB: 1859.40078359
+
+
+MILP 6: Solve master problem.
+MILP 6: OBJ: 1805.57851421  LB: -inf  UB: 1805.57851421
+
+
+MILP 7: Solve master problem.
+MILP 7: OBJ: 1783.63887467  LB: -inf  UB: 1783.63887467
+
+
+MILP 8: Solve master problem.
+MILP 8: OBJ: 1775.42171028  LB: -inf  UB: 1775.42171028
+
+
+MILP 9: Solve master problem.
+MILP 9: OBJ: 1774.79115255  LB: -inf  UB: 1774.79115255
+
+
+MILP 10: Solve master problem.
+MILP 10: OBJ: 1774.48880999  LB: -inf  UB: 1774.48880999
+
+
+MILP 11: Solve master problem.
+ECP has found a feasible solution within a 0.0001 tolerance
+MILP 11: OBJ: 1774.45347711  LB: 1774.45347711  UB: 1774.45347711
+MindtPy exiting on bound convergence. LB: 1774.45347711 + (tol 1e-05) >= UB: 1774.45347711
+
+Time elapsed: 5.667719841

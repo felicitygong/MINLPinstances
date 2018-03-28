@@ -1,0 +1,29 @@
+clay0204m.py
+NLP 1: Solve relaxed integrality.
+NLP 1: OBJ: -2.23172815683e-05  LB: -2.23172815683e-05  UB: inf
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 6545.0  LB: 6545.0  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Solving feasibility problem
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 6545.0  LB: 6545.0  UB: inf
+NLP 3: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Solving feasibility problem
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 6545.0  LB: 6545.0  UB: inf
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 6544.9999122  LB: 6545.0  UB: 6544.9999122
+
+
+MindtPy exiting on bound convergence. LB: 6545.0 + (tol 1e-05) >= UB: 6544.9999122
+
+
+Time elapsed: <type 'datetime.date'>

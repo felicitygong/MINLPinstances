@@ -1,0 +1,67 @@
+clay0203m.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 3560.0  LB: 3560.0  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 3560.0  LB: 3560.0  UB: inf
+NLP 3: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 3560.0  LB: 3560.0  UB: inf
+NLP 4: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 3760.0  LB: 3760.0  UB: inf
+NLP 5: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: 3760.0  LB: 3760.0  UB: inf
+NLP 6: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 6: Solve master problem.
+MILP 6: OBJ: 3930.0  LB: 3930.0  UB: inf
+NLP 7: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 7: Solve master problem.
+MILP 7: OBJ: 3930.0  LB: 3930.0  UB: inf
+NLP 8: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 8: Solve master problem.
+MILP 8: OBJ: 3930.0  LB: 3930.0  UB: inf
+NLP 9: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 9: Solve master problem.
+MILP master problem is infeasible. Problem may have no more feasible binary configurations.
+MindtPy exiting on bound convergence. LB: inf + (tol 1e-05) >= UB: inf
+
+Time elapsed: 2.33033895493

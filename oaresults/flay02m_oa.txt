@@ -1,0 +1,22 @@
+flay02m.py
+NLP 1: Solve relaxed integrality.
+NLP 1: OBJ: 28.2842711525  LB: 28.2842711525  UB: inf
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 30.2842712453  LB: 30.2842712453  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 37.9473317971  LB: 30.2842712453  UB: 37.9473317971
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 30.2842712496  LB: 30.2842712496  UB: 37.9473317971
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 37.9473318171  LB: 30.2842712496  UB: 37.9473317971
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 37.9473319172  LB: 37.9473319172  UB: 37.9473317971
+MindtPy exiting on bound convergence. LB: 37.9473319172 + (tol 1e-05) >= UB: 37.9473317971
+
+Time elapsed: <type 'datetime.date'>

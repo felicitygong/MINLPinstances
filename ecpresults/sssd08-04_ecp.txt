@@ -1,0 +1,45 @@
+sssd08-04.py
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 1464.88730292  LB: 1464.88730292  UB: inf
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 1636.50398078  LB: 1636.50398078  UB: inf
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 45511.3741663  LB: 45511.3741663  UB: inf
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 107653.850553  LB: 107653.850553  UB: inf
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: 123306.844092  LB: 123306.844092  UB: inf
+
+
+MILP 6: Solve master problem.
+MILP 6: OBJ: 166063.287565  LB: 166063.287565  UB: inf
+
+
+MILP 7: Solve master problem.
+MILP 7: OBJ: 176918.581371  LB: 176918.581371  UB: inf
+
+
+MILP 8: Solve master problem.
+MILP 8: OBJ: 181141.581158  LB: 181141.581158  UB: inf
+
+
+MILP 9: Solve master problem.
+MILP 9: OBJ: 181941.100364  LB: 181941.100364  UB: inf
+
+
+MILP 10: Solve master problem.
+ECP has found a feasible solution within a 0.0001 tolerance
+MILP 10: OBJ: 182020.071091  LB: 182020.071091  UB: 182020.071091
+MindtPy exiting on bound convergence. LB: 182020.071091 + (tol 1e-05) >= UB: 182020.071091
+
+Time elapsed: 3.760420084

@@ -1,0 +1,85 @@
+ravempb.py
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: -31405.7263336  LB: -31405.7263336  UB: inf
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 65947.8902751  LB: 65947.8902751  UB: inf
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 65947.8902751  LB: 65947.8902751  UB: inf
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: 65947.8902751  LB: 65947.8902751  UB: inf
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: 65947.8902751  LB: 65947.8902751  UB: inf
+
+
+MILP 6: Solve master problem.
+MILP 6: OBJ: 69210.6113084  LB: 69210.6113084  UB: inf
+
+
+MILP 7: Solve master problem.
+MILP 7: OBJ: 69210.6113084  LB: 69210.6113084  UB: inf
+
+
+MILP 8: Solve master problem.
+MILP 8: OBJ: 69210.6113084  LB: 69210.6113084  UB: inf
+
+
+MILP 9: Solve master problem.
+MILP 9: OBJ: 69363.8558089  LB: 69363.8558089  UB: inf
+
+
+MILP 10: Solve master problem.
+MILP 10: OBJ: 91073.5908155  LB: 91073.5908155  UB: inf
+
+
+MILP 11: Solve master problem.
+MILP 11: OBJ: 118775.505217  LB: 118775.505217  UB: inf
+
+
+MILP 12: Solve master problem.
+MILP 12: OBJ: 185538.213701  LB: 185538.213701  UB: inf
+
+
+MILP 13: Solve master problem.
+MILP 13: OBJ: 227681.866772  LB: 227681.866772  UB: inf
+
+
+MILP 14: Solve master problem.
+MILP 14: OBJ: 237832.736991  LB: 237832.736991  UB: inf
+
+
+MILP 15: Solve master problem.
+MILP 15: OBJ: 250744.261565  LB: 250744.261565  UB: inf
+
+
+MILP 16: Solve master problem.
+MILP 16: OBJ: 252700.420978  LB: 252700.420978  UB: inf
+
+
+MILP 17: Solve master problem.
+MILP 17: OBJ: 262635.3845  LB: 262635.3845  UB: inf
+
+
+MILP 18: Solve master problem.
+MILP 18: OBJ: 268751.417496  LB: 268751.417496  UB: inf
+
+
+MILP 19: Solve master problem.
+MILP 19: OBJ: 269590.06737  LB: 269590.06737  UB: inf
+
+
+MILP 20: Solve master problem.
+ECP has found a feasible solution within a 0.0001 tolerance
+MILP 20: OBJ: 269590.219315  LB: 269590.219315  UB: 269590.219315
+MindtPy exiting on bound convergence. LB: 269590.219315 + (tol 1e-05) >= UB: 269590.219315
+
+Time elapsed: 3.3847630024

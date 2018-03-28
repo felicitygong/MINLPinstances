@@ -1,0 +1,22 @@
+synthes1.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 9.99999949704  LB: -inf  UB: 9.99999949704
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: -19.7365836467  LB: -19.7365836467  UB: 9.99999949704
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 6.00975856921  LB: -19.7365836467  UB: 6.00975856921
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: -15.4832243359  LB: -15.4832243359  UB: 6.00975856921
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 7.09273129715  LB: -15.4832243359  UB: 6.00975856921
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 6.00975890893  LB: 6.00975890893  UB: 6.00975856921
+MindtPy exiting on bound convergence. LB: 6.00975890893 + (tol 1e-05) >= UB: 6.00975856921
+
+Time elapsed: 0.565074920654

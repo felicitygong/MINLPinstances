@@ -1,0 +1,9 @@
+m7.py
+
+
+MILP 1: Solve master problem.
+ECP has found a feasible solution within a 0.0001 tolerance
+MILP 1: OBJ: 106.756876898  LB: 106.756876898  UB: 106.756876898
+MindtPy exiting on bound convergence. LB: 106.756876898 + (tol 1e-05) >= UB: 106.756876898
+
+Time elapsed: 0.680819034576

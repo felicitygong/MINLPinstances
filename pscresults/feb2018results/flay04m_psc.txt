@@ -1,0 +1,10 @@
+flay04m.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 30.9838666746  LB: -inf  UB: 30.9838666746
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 36.983866764  LB: 36.983866764  UB: 30.9838666746
+MindtPy exiting on bound convergence. LB: 36.983866764 + (tol 1e-05) >= UB: 30.9838666746
+
+Time elapsed: 0.196238994598

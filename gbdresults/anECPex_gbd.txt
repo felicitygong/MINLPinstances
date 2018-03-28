@@ -1,0 +1,22 @@
+anECPex.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 9.99999972819  LB: -inf  UB: 9.99999972819
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 5.0  LB: 5.0  UB: 9.99999972819
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 14.9999995825  LB: 5.0  UB: 9.99999972819
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 6.0  LB: 6.0  UB: 9.99999972819
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 10.0951962366  LB: 6.0  UB: 9.99999972819
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 10.0  LB: 10.0  UB: 9.99999972819
+MindtPy exiting on bound convergence. LB: 10.0 + (tol 1e-05) >= UB: 9.99999972819
+
+Time elapsed: 0.503978967667

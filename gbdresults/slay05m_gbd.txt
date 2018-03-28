@@ -1,0 +1,36 @@
+slay05m.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 1: Solve master problem.
+MILP master problem is unbounded. 
+MILP 1.1: maximize value of binaries
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 55042.4851845  LB: -inf  UB: 55042.4851845
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: -343723.443748  LB: -343723.443748  UB: 55042.4851845
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 53987.8832775  LB: -343723.443748  UB: 53987.8832775
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: -215026.427253  LB: -215026.427253  UB: 53987.8832775
+NLP 4: Solve subproblem for fixed binaries.
+NLP 4: OBJ: 48578.8367207  LB: -215026.427253  UB: 48578.8367207
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: -128611.771653  LB: -128611.771653  UB: 48578.8367207
+NLP 5: Solve subproblem for fixed binaries.
+NLP 5: OBJ: 34236.9467613  LB: -128611.771653  UB: 34236.9467613
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: 48578.8370581  LB: 48578.8370581  UB: 34236.9467613
+MindtPy exiting on bound convergence. LB: 48578.8370581 + (tol 1e-05) >= UB: 34236.9467613
+
+Time elapsed: 1.50163292885

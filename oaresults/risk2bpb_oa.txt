@@ -1,0 +1,22 @@
+risk2bpb.py
+NLP 1: Solve relaxed integrality.
+NLP 1: OBJ: -57.1592826383  LB: -57.1592826383  UB: inf
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: -56.8555744123  LB: -56.8555744123  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: -56.7702736262  LB: -56.8555744123  UB: -56.7702736262
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: -56.8229437653  LB: -56.8229437653  UB: -56.7702736262
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: -56.8208732304  LB: -56.8229437653  UB: -56.8208732304
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: -56.8208726095  LB: -56.8208726095  UB: -56.8208732304
+MindtPy exiting on bound convergence. LB: -56.8208726095 + (tol 1e-05) >= UB: -56.8208732304
+
+Time elapsed: 3.43708086014

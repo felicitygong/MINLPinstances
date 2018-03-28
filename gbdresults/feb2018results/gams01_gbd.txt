@@ -1,0 +1,148 @@
+gams01.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 32773.9996888  LB: -inf  UB: 32773.9996888
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: -206162.79738  LB: -206162.79738  UB: 32773.9996888
+NLP 2: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: -206162.79738  LB: -206162.79738  UB: 32773.9996888
+NLP 3: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: -206162.79738  LB: -206162.79738  UB: 32773.9996888
+NLP 4: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: -206162.79738  LB: -206162.79738  UB: 32773.9996888
+NLP 5: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: -206162.79738  LB: -206162.79738  UB: 32773.9996888
+NLP 6: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 6: Solve master problem.
+MILP 6: OBJ: -206162.79738  LB: -206162.79738  UB: 32773.9996888
+NLP 7: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 7: Solve master problem.
+MILP 7: OBJ: -206162.79738  LB: -206162.79738  UB: 32773.9996888
+NLP 8: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 8: Solve master problem.
+MILP 8: OBJ: -206162.79738  LB: -206162.79738  UB: 32773.9996888
+NLP 9: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 9: Solve master problem.
+MILP 9: OBJ: -206162.79738  LB: -206162.79738  UB: 32773.9996888
+NLP 10: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 10: Solve master problem.
+MILP 10: OBJ: -206162.79738  LB: -206162.79738  UB: 32773.9996888
+NLP 11: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 11: Solve master problem.
+MILP 11: OBJ: -206162.79738  LB: -206162.79738  UB: 32773.9996888
+NLP 12: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 12: Solve master problem.
+MILP 12: OBJ: -206162.79738  LB: -206162.79738  UB: 32773.9996888
+NLP 13: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 13: Solve master problem.
+MILP 13: OBJ: -206162.79738  LB: -206162.79738  UB: 32773.9996888
+NLP 14: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 14: Solve master problem.
+MILP 14: OBJ: -206162.79738  LB: -206162.79738  UB: 32773.9996888
+NLP 15: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 15: Solve master problem.
+MILP 15: OBJ: -206162.79738  LB: -206162.79738  UB: 32773.9996888
+NLP 16: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 16: Solve master problem.
+MILP 16: OBJ: -206162.79738  LB: -206162.79738  UB: 32773.9996888
+NLP 17: Solve subproblem for fixed binaries.
+NLP 17: OBJ: 32424.4895365  LB: -206162.79738  UB: 32424.4895365
+
+
+MILP 17: Solve master problem.
+MILP 17: OBJ: -206162.79738  LB: -206162.79738  UB: 32424.4895365
+NLP 18: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 18: Solve master problem.
+MILP 18: OBJ: -206162.79738  LB: -206162.79738  UB: 32424.4895365
+NLP 19: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 19: Solve master problem.
+MILP 19: OBJ: -206162.79738  LB: -206162.79738  UB: 32424.4895365
+NLP 20: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MILP 20: Solve master problem.
+MILP 20: OBJ: -206162.79738  LB: -206162.79738  UB: 32424.4895365
+NLP 21: Solve subproblem for fixed binaries.
+NLP subproblem was locally infeasible.
+Adding GBD feasibility cut.
+
+
+MindtPy unable to converge bounds after 20 master iterations.
+Final bound values: LB: -206162.79738  UB: 32424.4895365
+
+Time elapsed: 15216.1049449

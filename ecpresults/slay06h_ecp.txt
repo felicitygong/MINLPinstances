@@ -1,0 +1,127 @@
+slay06h.py
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: -665940.0  LB: -665940.0  UB: inf
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: -346219.310717  LB: -346219.310717  UB: inf
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: -239073.845593  LB: -239073.845593  UB: inf
+
+
+MILP 4: Solve master problem.
+MILP 4: OBJ: -196835.823805  LB: -196835.823805  UB: inf
+
+
+MILP 5: Solve master problem.
+MILP 5: OBJ: -126681.28252  LB: -126681.28252  UB: inf
+
+
+MILP 6: Solve master problem.
+MILP 6: OBJ: -92521.7895753  LB: -92521.7895753  UB: inf
+
+
+MILP 7: Solve master problem.
+MILP 7: OBJ: -69869.3026683  LB: -69869.3026683  UB: inf
+
+
+MILP 8: Solve master problem.
+MILP 8: OBJ: -53866.5516075  LB: -53866.5516075  UB: inf
+
+
+MILP 9: Solve master problem.
+MILP 9: OBJ: -36910.7214354  LB: -36910.7214354  UB: inf
+
+
+MILP 10: Solve master problem.
+MILP 10: OBJ: -29373.7961164  LB: -29373.7961164  UB: inf
+
+
+MILP 11: Solve master problem.
+MILP 11: OBJ: -9733.23254135  LB: -9733.23254135  UB: inf
+
+
+MILP 12: Solve master problem.
+MILP 12: OBJ: -2009.55627885  LB: -2009.55627885  UB: inf
+
+
+MILP 13: Solve master problem.
+MILP 13: OBJ: 3907.31657523  LB: 3907.31657523  UB: inf
+
+
+MILP 14: Solve master problem.
+MILP 14: OBJ: 6169.30731047  LB: 6169.30731047  UB: inf
+
+
+MILP 15: Solve master problem.
+MILP 15: OBJ: 9917.43104527  LB: 9917.43104527  UB: inf
+
+
+MILP 16: Solve master problem.
+MILP 16: OBJ: 19562.4019515  LB: 19562.4019515  UB: inf
+
+
+MILP 17: Solve master problem.
+MILP 17: OBJ: 20581.1344494  LB: 20581.1344494  UB: inf
+
+
+MILP 18: Solve master problem.
+MILP 18: OBJ: 21318.9710195  LB: 21318.9710195  UB: inf
+
+
+MILP 19: Solve master problem.
+MILP 19: OBJ: 21930.1708397  LB: 21930.1708397  UB: inf
+
+
+MILP 20: Solve master problem.
+MILP 20: OBJ: 22704.4309547  LB: 22704.4309547  UB: inf
+
+
+MILP 21: Solve master problem.
+MILP 21: OBJ: 23241.6092117  LB: 23241.6092117  UB: inf
+
+
+MILP 22: Solve master problem.
+MILP 22: OBJ: 24448.0172602  LB: 24448.0172602  UB: inf
+
+
+MILP 23: Solve master problem.
+MILP 23: OBJ: 24539.6861355  LB: 24539.6861355  UB: inf
+
+
+MILP 24: Solve master problem.
+MILP 24: OBJ: 26601.0167884  LB: 26601.0167884  UB: inf
+
+
+MILP 25: Solve master problem.
+MILP 25: OBJ: 27209.218603  LB: 27209.218603  UB: inf
+
+
+MILP 26: Solve master problem.
+MILP 26: OBJ: 27945.0212788  LB: 27945.0212788  UB: inf
+
+
+MILP 27: Solve master problem.
+MILP 27: OBJ: 28349.9376404  LB: 28349.9376404  UB: inf
+
+
+MILP 28: Solve master problem.
+MILP 28: OBJ: 28821.3911169  LB: 28821.3911169  UB: inf
+
+
+MILP 29: Solve master problem.
+MILP 29: OBJ: 28997.7191503  LB: 28997.7191503  UB: inf
+
+
+MILP 30: Solve master problem.
+MILP 30: OBJ: 29400.5604772  LB: 29400.5604772  UB: inf
+
+
+MindtPy unable to converge bounds after 30 master iterations.
+Final bound values: LB: 29400.5604772  UB: inf
+
+Time elapsed: 14.0312719345

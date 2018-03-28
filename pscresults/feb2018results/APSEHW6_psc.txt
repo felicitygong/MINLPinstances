@@ -1,0 +1,22 @@
+APSEHW6.py
+NLP 1: Solve subproblem for fixed binaries.
+NLP 1: OBJ: 10.9999997775  LB: -inf  UB: 10.9999997775
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 1.00000012878  LB: 1.00000012878  UB: 10.9999997775
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 4.99999991877  LB: 1.00000012878  UB: 4.99999991877
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 1.50011938457  LB: 1.50011938457  UB: 4.99999991877
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 3.49999997467  LB: 1.50011938457  UB: 3.49999997467
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 3.5  LB: 3.5  UB: 3.49999997467
+MindtPy exiting on bound convergence. LB: 3.5 + (tol 1e-05) >= UB: 3.49999997467
+
+Time elapsed: 0.951901912689

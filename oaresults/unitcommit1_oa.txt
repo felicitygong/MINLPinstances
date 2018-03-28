@@ -1,0 +1,22 @@
+unitcommit1.py
+NLP 1: Solve relaxed integrality.
+NLP 1: OBJ: 568767.853399  LB: 568767.853399  UB: inf
+
+
+MILP 1: Solve master problem.
+MILP 1: OBJ: 577961.478321  LB: 577961.478321  UB: inf
+NLP 2: Solve subproblem for fixed binaries.
+NLP 2: OBJ: 578176.634977  LB: 577961.478321  UB: 578176.634977
+
+
+MILP 2: Solve master problem.
+MILP 2: OBJ: 578175.849004  LB: 578175.849004  UB: 578176.634977
+NLP 3: Solve subproblem for fixed binaries.
+NLP 3: OBJ: 578176.634977  LB: 578175.849004  UB: 578176.634977
+
+
+MILP 3: Solve master problem.
+MILP 3: OBJ: 578176.639004  LB: 578176.639004  UB: 578176.634977
+MindtPy exiting on bound convergence. LB: 578176.639004 + (tol 1e-05) >= UB: 578176.634977
+
+Time elapsed: 147.855149031
