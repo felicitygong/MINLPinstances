@@ -1,22 +1,3 @@
 batch.py
-NLP 1: Solve relaxed integrality.
-NLP 1: OBJ: 259180.330767  LB: 259180.330767  UB: inf
 
-
-MILP 1: Solve master problem.
-MILP 1: OBJ: 277621.066039  LB: 277621.066039  UB: inf
-NLP 2: Solve subproblem for fixed binaries.
-NLP 2: OBJ: 285506.499899  LB: 277621.066039  UB: 285506.499899
-
-
-MILP 2: Solve master problem.
-MILP 2: OBJ: 284957.355645  LB: 284957.355645  UB: 285506.499899
-NLP 3: Solve subproblem for fixed binaries.
-NLP 3: OBJ: 300301.796951  LB: 284957.355645  UB: 285506.499899
-
-
-MILP 3: Solve master problem.
-MILP 3: OBJ: 285506.508244  LB: 285506.508244  UB: 285506.499899
-MindtPy exiting on bound convergence. LB: 285506.508244 + (tol 1e-05) >= UB: 285506.499899
-
-Time elapsed: <type 'datetime.date'>
+Time elapsed: <class 'datetime.date'>

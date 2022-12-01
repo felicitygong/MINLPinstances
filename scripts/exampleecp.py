@@ -6,7 +6,7 @@ import time, datetime
 
 import pyomo.contrib.mindtpy.MindtPy
 from pyomo.environ import SolverFactory, value
-from cStringIO import StringIO
+from io import StringIO
 
 problemfiles = ['ex1223.py',
                 'ex1223b.py',
@@ -68,7 +68,7 @@ sys.path.append(os.getcwd())
 solvername = 'ecp'
 for filename in sorted(os.listdir('.')):
     # Only do things with .py files
-    if filename.endswith('.py') and filename not in problemfiles and filename not in okfiles:
+    if filename.endswith('.py') and filename not in problemfiles:
         name = os.path.splitext(filename)[0]
         print(name)
         newname = name + '_'+solvername+'.txt'
@@ -83,7 +83,7 @@ for filename in sorted(os.listdir('.')):
         dt = datetime.date
         start = time.time()
         #try:
-        SolverFactory('mindtpy').solve(filename1.m, strategy='ECP')
+        SolverFactory('mindtpy').solve(filename1.m, strategy='ECP', iteration_limit=15)
         end = time.time()
         sys.stdout = old_stdout
         f.write(mystdout.getvalue())

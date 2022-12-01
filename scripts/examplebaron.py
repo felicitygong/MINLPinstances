@@ -6,7 +6,7 @@ import time
 
 import pyomo.environ
 from pyomo.opt import SolverFactory
-from cStringIO import StringIO
+from io import StringIO
 
 codefiles = ['fac1.py','portfol_buyin.py','portfol_card.py']
 skipexisting = 1

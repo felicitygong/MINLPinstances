@@ -1,16 +1,3 @@
 hybriddynamic_fixed.py
-NLP 1: Solve relaxed integrality.
-NLP 1: OBJ: 1.32236441499  LB: 1.32236441499  UB: inf
 
-
-MILP 1: Solve master problem.
-MILP 1: OBJ: 1.39230738026  LB: 1.39230738026  UB: inf
-NLP 2: Solve subproblem for fixed binaries.
-NLP 2: OBJ: 1.47377777028  LB: 1.39230738026  UB: 1.47377777028
-
-
-MILP 2: Solve master problem.
-MILP 2: OBJ: 1.47377777778  LB: 1.47377777778  UB: 1.47377777028
-MindtPy exiting on bound convergence. LB: 1.47377777778 + (tol 1e-05) >= UB: 1.47377777028
-
-Time elapsed: <type 'datetime.date'>
+Time elapsed: <class 'datetime.date'>

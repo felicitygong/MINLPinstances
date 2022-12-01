@@ -1,1 +1,1 @@
-gbd.py, MindtPy, IPOPT, Gurobi<type 'datetime.date'>, 0, eqnum?, varnum?, dvarnum?, nznum?, nlnz?, 0, modelstatus?, solvestatus?,2.2, objest?,0.218901872635, 5, domviolations, numnodes,user
+gbd.py, MindtPy, IPOPT, Gurobi<class 'datetime.date'>, 0, eqnum?, varnum?, dvarnum?, nznum?, nlnz?, 0, modelstatus?, solvestatus?,2.2, objest?,0.23218107223510742, 5, domviolations, numnodes,user

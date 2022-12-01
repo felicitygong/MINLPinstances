@@ -1,22 +1,3 @@
 fo7_2.py
-NLP 1: Solve relaxed integrality.
-NLP 1: OBJ: -6.70874266565e-08  LB: -6.70874266565e-08  UB: inf
 
-
-MILP 1: Solve master problem.
-MILP 1: OBJ: 15.6039453639  LB: 15.6039453639  UB: inf
-NLP 2: Solve subproblem for fixed binaries.
-NLP 2: OBJ: 17.7493452598  LB: 15.6039453639  UB: 17.7493452598
-
-
-MILP 2: Solve master problem.
-MILP 2: OBJ: 17.6542777785  LB: 17.6542777785  UB: 17.7493452598
-NLP 3: Solve subproblem for fixed binaries.
-NLP 3: OBJ: 18.8836197519  LB: 17.6542777785  UB: 17.7493452598
-
-
-MILP 3: Solve master problem.
-MILP 3: OBJ: 17.7493457289  LB: 17.7493457289  UB: 17.7493452598
-MindtPy exiting on bound convergence. LB: 17.7493457289 + (tol 1e-05) >= UB: 17.7493452598
-
-Time elapsed: <type 'datetime.date'>
+Time elapsed: <class 'datetime.date'>

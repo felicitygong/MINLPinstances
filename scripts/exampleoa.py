@@ -6,7 +6,7 @@ import time, datetime
 
 import pyomo.contrib.mindtpy.MindtPy
 from pyomo.environ import SolverFactory, value
-from cStringIO import StringIO
+from io import StringIO
 
 problemfiles = ['clay0204h.py',
                 'clay0205h.py',
@@ -14,17 +14,20 @@ problemfiles = ['clay0204h.py',
                 'fac1.py',
                 'portfol_buyin.py',
                 'portfol_card.py',
+		'batch0812.py',
+		'ibs2.py',
                 'watercontamination0202.py',
                 'watercontamination0202r.py',
                 'watercontamination0303.py',
-                'watercontamination0303.py'
+                'watercontamination0303.py',
+		'squfl020-150'
                 ]
 #skipexisting = 1
 timetable = [['Instance', 'Time Elapsed']]
 errortable = [['Instance', 'Error']]
 fileDir = os.path.dirname(os.path.realpath('__file__'))
 fileDir = os.path.join(fileDir, '../py')
-os.chdir(fileDir) 
+os.chdir(fileDir)
 sys.path.append(os.getcwd())
 solvername = 'oa'
 for filename in sorted(os.listdir('.')):
@@ -44,7 +47,7 @@ for filename in sorted(os.listdir('.')):
         dt = datetime.date
         start = time.time()
         #try:
-        SolverFactory('mindtpy').solve(filename1.m, strategy='OA', iterlim=5)
+        SolverFactory('mindtpy').solve(filename1.m, strategy='OA', iteration_limit=10)
         end = time.time()
         sys.stdout = old_stdout
         f.write(mystdout.getvalue())

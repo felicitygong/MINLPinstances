@@ -1,22 +1,3 @@
 enpro48pb.py
-NLP 1: Solve relaxed integrality.
-NLP 1: OBJ: 174318.128456  LB: 174318.128456  UB: inf
 
-
-MILP 1: Solve master problem.
-MILP 1: OBJ: 183444.451169  LB: 183444.451169  UB: inf
-NLP 2: Solve subproblem for fixed binaries.
-NLP 2: OBJ: 187277.253952  LB: 183444.451169  UB: 187277.253952
-
-
-MILP 2: Solve master problem.
-MILP 2: OBJ: 186787.234186  LB: 186787.234186  UB: 187277.253952
-NLP 3: Solve subproblem for fixed binaries.
-NLP 3: OBJ: 188887.235777  LB: 186787.234186  UB: 187277.253952
-
-
-MILP 3: Solve master problem.
-MILP 3: OBJ: 187277.259422  LB: 187277.259422  UB: 187277.253952
-MindtPy exiting on bound convergence. LB: 187277.259422 + (tol 1e-05) >= UB: 187277.253952
-
-Time elapsed: <type 'datetime.date'>
+Time elapsed: <class 'datetime.date'>

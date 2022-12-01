@@ -1,28 +1,3 @@
 meanvarx.py
-NLP 1: Solve relaxed integrality.
-NLP 1: OBJ: 14.309784363  LB: 14.309784363  UB: inf
 
-
-MILP 1: Solve master problem.
-MILP 1: OBJ: 14.3682139805  LB: 14.3682139805  UB: inf
-NLP 2: Solve subproblem for fixed binaries.
-NLP 2: OBJ: 14.5147648818  LB: 14.3682139805  UB: 14.5147648818
-
-
-MILP 2: Solve master problem.
-MILP 2: OBJ: 14.3682139844  LB: 14.3682139844  UB: 14.5147648818
-NLP 3: Solve subproblem for fixed binaries.
-NLP 3: OBJ: 14.6475824393  LB: 14.3682139844  UB: 14.5147648818
-
-
-MILP 3: Solve master problem.
-MILP 3: OBJ: 14.3682139833  LB: 14.3682139844  UB: 14.5147648818
-NLP 4: Solve subproblem for fixed binaries.
-NLP 4: OBJ: 14.3692309514  LB: 14.3682139844  UB: 14.3692309514
-
-
-MILP 4: Solve master problem.
-MILP 4: OBJ: 14.3692321184  LB: 14.3692321184  UB: 14.3692309514
-MindtPy exiting on bound convergence. LB: 14.3692321184 + (tol 1e-05) >= UB: 14.3692309514
-
-Time elapsed: <type 'datetime.date'>
+Time elapsed: <class 'datetime.date'>

@@ -1,1 +1,1 @@
-fac3.py, MindtPy, IPOPT, Gurobi<type 'datetime.date'>, 0, eqnum?, varnum?, dvarnum?, nznum?, nlnz?, 0, modelstatus?, solvestatus?,31982309.8866, objest?,1.71648383141, 5, domviolations, numnodes,user
+fac3.py, MindtPy, IPOPT, Gurobi<class 'datetime.date'>, 0, eqnum?, varnum?, dvarnum?, nznum?, nlnz?, 0, modelstatus?, solvestatus?,31982309.886622753, objest?,3.306013345718384, 5, domviolations, numnodes,user

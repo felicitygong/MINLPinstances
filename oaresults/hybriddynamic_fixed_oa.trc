@@ -1,1 +1,1 @@
-hybriddynamic_fixed.py, MindtPy, IPOPT, Gurobi<type 'datetime.date'>, 0, eqnum?, varnum?, dvarnum?, nznum?, nlnz?, 0, modelstatus?, solvestatus?,1.47377777778, objest?,0.462386131287, 5, domviolations, numnodes,user
+hybriddynamic_fixed.py, MindtPy, IPOPT, Gurobi<class 'datetime.date'>, 0, eqnum?, varnum?, dvarnum?, nznum?, nlnz?, 0, modelstatus?, solvestatus?,1.4737777777777812, objest?,0.48959922790527344, 5, domviolations, numnodes,user

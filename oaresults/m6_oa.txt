@@ -1,16 +1,3 @@
 m6.py
-NLP 1: Solve relaxed integrality.
-NLP 1: OBJ: -6.15338243223e-07  LB: -6.15338243223e-07  UB: inf
 
-
-MILP 1: Solve master problem.
-MILP 1: OBJ: 82.2564  LB: 82.2564  UB: inf
-NLP 2: Solve subproblem for fixed binaries.
-NLP 2: OBJ: 82.2568754459  LB: 82.2564  UB: 82.2568754459
-
-
-MILP 2: Solve master problem.
-MILP 2: OBJ: 82.2568769137  LB: 82.2568769137  UB: 82.2568754459
-MindtPy exiting on bound convergence. LB: 82.2568769137 + (tol 1e-05) >= UB: 82.2568754459
-
-Time elapsed: <type 'datetime.date'>
+Time elapsed: <class 'datetime.date'>

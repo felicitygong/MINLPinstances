@@ -1,1 +1,1 @@
-batchs101006m.py, MindtPy, IPOPT, Gurobi<type 'datetime.date'>, 0, eqnum?, varnum?, dvarnum?, nznum?, nlnz?, 0, modelstatus?, solvestatus?,769440.38432, objest?,7.0552649498, 5, domviolations, numnodes,user
+batchs101006m.py, MindtPy, IPOPT, Gurobi<class 'datetime.date'>, 0, eqnum?, varnum?, dvarnum?, nznum?, nlnz?, 0, modelstatus?, solvestatus?,90097.17657001008, objest?,13.870237350463867, 5, domviolations, numnodes,user

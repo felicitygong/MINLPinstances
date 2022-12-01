@@ -6,7 +6,7 @@ import time, datetime
 
 import pyomo.contrib.mindtpy.MindtPy
 from pyomo.environ import SolverFactory, value
-from cStringIO import StringIO
+from io import StringIO
 
 problemfiles = ['ex1223b.py',
                 'ibs2.py',
@@ -92,7 +92,7 @@ for filename in sorted(os.listdir('.')):
         dt = datetime.date
         start = time.time()
         #try:
-        SolverFactory('mindtpy').solve(filename1.m, strategy='GBD')
+        SolverFactory('mindtpy').solve(filename1.m, strategy='GBD', iteration_limit=20)
         end = time.time()
         sys.stdout = old_stdout
         f.write(mystdout.getvalue())

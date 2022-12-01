@@ -1,0 +1,71 @@
+slay04m.py
+Ipopt 3.12: 
+==> Warning: Treating 24 binary and 0 integer variables as continous.
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.12, running with linear solver ma27.
+
+Number of nonzeros in equality constraint Jacobian...:       24
+Number of nonzeros in inequality constraint Jacobian.:      144
+Number of nonzeros in Lagrangian Hessian.............:        8
+
+Total number of variables............................:       44
+                     variables with only lower bounds:       12
+                variables with lower and upper bounds:       32
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:        6
+Total number of inequality constraints...............:       48
+        inequality constraints with only lower bounds:       24
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:       24
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  1.0572848e+05 2.51e+00 4.67e+01  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  1.0547414e+05 2.44e+00 4.57e+01  -1.0 8.64e+00    -  1.20e-02 3.17e-02f  1
+   2  1.0017196e+05 2.16e+00 4.41e+01  -1.0 8.35e+00    -  1.75e-02 1.15e-01f  1
+   3  6.3345206e+04 1.51e+00 3.13e+01  -1.0 8.86e+00    -  2.52e-02 2.90e-01f  1
+   4  4.6421827e+04 1.21e+00 2.52e+01  -1.0 6.40e+00    -  7.80e-02 1.93e-01f  1
+   5  1.4751564e+04 2.95e-01 6.40e+00  -1.0 5.93e+00    -  1.14e-01 7.31e-01f  1
+   6  9.4555294e+03 2.22e-16 1.73e+00  -1.0 5.83e+00    -  4.07e-01 1.00e+00f  1
+   7  8.9012834e+03 2.22e-16 7.25e-01  -1.0 3.32e+00    -  3.10e-01 1.00e+00f  1
+   8  8.7444569e+03 1.11e-16 2.72e-01  -1.0 2.91e+00    -  5.96e-01 1.00e+00f  1
+   9  8.7517906e+03 1.11e-16 6.09e-03  -1.0 1.16e+00    -  9.76e-01 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  8.6292163e+03 2.22e-16 2.00e-07  -1.7 6.43e-01    -  1.00e+00 1.00e+00f  1
+  11  8.6052397e+03 0.00e+00 2.83e-08  -2.5 4.27e-01    -  1.00e+00 1.00e+00f  1
+  12  8.6011830e+03 2.22e-16 1.50e-09  -3.8 1.32e-01    -  1.00e+00 1.00e+00f  1
+  13  8.6010949e+03 2.22e-16 1.50e-09  -3.8 2.38e+00    -  1.00e+00 1.00e+00f  1
+  14  8.6008783e+03 0.00e+00 1.84e-11  -5.7 2.01e-02    -  1.00e+00 1.00e+00f  1
+  15  8.6008779e+03 2.22e-16 1.84e-11  -5.7 1.89e-02    -  1.00e+00 1.00e+00f  1
+  16  8.6008754e+03 2.22e-16 2.53e-14  -8.6 3.17e-04    -  1.00e+00 1.00e+00f  1
+  17  8.6008754e+03 2.22e-16 9.41e-15  -9.0 8.45e-05    -  1.00e+00 1.00e+00h  1
+
+Number of Iterations....: 17
+
+                                   (scaled)                 (unscaled)
+Objective...............:   8.8214106189397768e+01    8.6008753534662828e+03
+Dual infeasibility......:   9.4105126075903789e-15    9.1752497924006194e-13
+Constraint violation....:   2.2204460492503131e-16    2.2204460492503131e-16
+Complementarity.........:   9.0948772026728760e-10    8.8675052726060544e-08
+Overall NLP error.......:   9.0948772026728760e-10    8.8675052726060544e-08
+
+
+Number of objective function evaluations             = 18
+Number of objective gradient evaluations             = 18
+Number of equality constraint evaluations            = 18
+Number of inequality constraint evaluations          = 18
+Number of equality constraint Jacobian evaluations   = 18
+Number of inequality constraint Jacobian evaluations = 18
+Number of Lagrangian Hessian evaluations             = 17
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.002
+Total CPU secs in NLP function evaluations           =      0.000
+
+EXIT: Optimal Solution Found.
+
+Time elapsed: 0.1233069896697998

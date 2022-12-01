@@ -1,1 +1,1 @@
-fo8.py, MindtPy, IPOPT, Gurobi<type 'datetime.date'>, 0, eqnum?, varnum?, dvarnum?, nznum?, nlnz?, 0, modelstatus?, solvestatus?,22.381896318, objest?,31.3870999813, 5, domviolations, numnodes,user
+fo8.py, MindtPy, IPOPT, Gurobi<class 'datetime.date'>, 0, eqnum?, varnum?, dvarnum?, nznum?, nlnz?, 0, modelstatus?, solvestatus?,0, objest?,51.232654333114624, 5, domviolations, numnodes,user
